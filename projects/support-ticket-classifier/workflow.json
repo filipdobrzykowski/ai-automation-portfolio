@@ -1,0 +1,236 @@
+{
+  "name": "Automation 1st",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Zgłoszenie od Klienta",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Imię"
+            },
+            {
+              "fieldLabel": "Treść zgłoszenia",
+              "fieldType": "textarea"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "4700c66a-e9b2-435e-ac70-5b946f8be578",
+      "name": "Support ticket classifier",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.6,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "fb073d2d-7245-42de-98de-7ec2e5c2a5b2"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "claude-haiku-4-5-20251001",
+          "mode": "list",
+          "cachedResultName": "claude-haiku-4-5-20251001"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=Jesteś asystentem obsługi klienta. Sklasyfikuj poniższe zgłoszenie.\n\nZwróć WYŁĄCZNIE poprawny JSON, bez żadnego tekstu przed ani po, w formacie:\n{\"kategoria\": \"...\", \"priorytet\": \"...\", \"streszczenie\": \"...\"}\n\nZasady:\n- kategoria: jedna z: \"reklamacja\", \"zapytanie ofertowe\", \"pytanie o zamówienie\", \"faktura\", \"inne\"\n- priorytet: jedna z: \"wysoki\", \"średni\", \"niski\"\n- streszczenie: maksymalnie 15 słów, po polsku\n\nZgłoszenie od {{ $json['Imię'] }}:\n{{ $json['Treść zgłoszenia'] }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "fdf97e4d-1cf2-477f-a2bc-167567404125",
+      "name": "Message a model",
+      "type": "@n8n/n8n-nodes-langchain.anthropic",
+      "typeVersion": 1,
+      "position": [
+        224,
+        0
+      ],
+      "credentials": {
+        "anthropicApi": {
+          "id": "xz4lpZkyH5kI3sgW",
+          "name": "Anthropic account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const raw = $json.content?.[0]?.text ?? $json.text ?? $json.output ?? Object.values($json).find(v => typeof v === \"string\") ?? \"\";\nconst clean = raw.replace(/```json|```/g, \"\").trim();\nlet parsed;\ntry {\n  parsed = JSON.parse(clean);\n} catch (e) {\n  parsed = { kategoria: \"błąd\", priorytet: \"błąd\", streszczenie: raw.slice(0, 100) };\n}\nreturn {\n  json: {\n    data: new Date().toISOString(),\n    imie: $('Support ticket classifier').item.json['Imię'],\n    tresc: $('Support ticket classifier').item.json['Treść zgłoszenia'],\n    kategoria: parsed.kategoria,\n    priorytet: parsed.priorytet,\n    streszczenie: parsed.streszczenie,\n  },\n};"
+      },
+      "id": "ed7cb4e3-c54e-426a-8015-6c62f27cdac4",
+      "name": "Code in JavaScript",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        592,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1y2Mvhia6fogU-viScdDLxlQPJlF1RP_Euw5cGwJUvFk",
+          "mode": "list",
+          "cachedResultName": "Automation",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1y2Mvhia6fogU-viScdDLxlQPJlF1RP_Euw5cGwJUvFk/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Arkusz1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1y2Mvhia6fogU-viScdDLxlQPJlF1RP_Euw5cGwJUvFk/edit#gid=0"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Data": "={{ $json.data }}",
+            "Imię": "={{ $json.imie }}",
+            "Treść": "={{ $json.tresc }}",
+            "Kategoria": "={{ $json.kategoria }}",
+            "priorytet": "={{ $json.priorytet }}",
+            "Streszczenie": "={{ $json.streszczenie }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Data",
+              "displayName": "Data",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Imię",
+              "displayName": "Imię",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Treść",
+              "displayName": "Treść",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Kategoria",
+              "displayName": "Kategoria",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "priorytet",
+              "displayName": "priorytet",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Streszczenie",
+              "displayName": "Streszczenie",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        816,
+        0
+      ],
+      "id": "4e89a6fd-3619-4dd9-ab75-65e69fdbe81e",
+      "name": "Append row in sheet",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "lREwXnM2tI1rBJWD",
+          "name": "Google Sheets account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Support ticket classifier": {
+      "main": [
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Message a model": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "Append row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "b056b0c5-fedd-4a84-a391-052916c763f8",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "1b211019edeebbb33a19e9bb99fc632caa72936e758ed3440784a0bc532d657b"
+  },
+  "nodeGroups": [],
+  "id": "J8iVhusbZRy3CLl5",
+  "tags": []
+}

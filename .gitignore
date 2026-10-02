@@ -219,3 +219,5 @@ __marimo__/
    .env
    *.key
    credentials.json
+.DS_Store
+.DS_Store
