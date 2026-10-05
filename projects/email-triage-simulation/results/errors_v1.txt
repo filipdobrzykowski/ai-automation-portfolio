@@ -1,0 +1,220 @@
+======================================================================
+e002 | category: product_question -> product_question | priority: low -> medium
+Temat: Pytanie o wymiary zapięcia U-lock
+
+Cześć,
+
+Chciałbym się dowiedzieć jakie są dokładne wymiary i waga zapięcia U-lock, które widzę w Waszym sklepie. Zastanawiam się nad zakupem tego modelu, ale potrzebuję informacji czy zmieści się w plecaku i czy nie będzie zbyt ciężki do noszenia codziennie. Możliwe, że złożę zamówienie, ale najpierw chciałbym mieć pewność, że będzie to odpowiedni rozmiar.
+
+Dzięki za pomoc!
+Marcin
+model summary: Customer asks for dimensions and weight of U-lock before purchasing.
+======================================================================
+e004 | category: order_status -> order_status | priority: medium -> high
+Temat: Zmiana adresu dostawy - zamówienie BG-97841
+
+Cześć,
+
+Właśnie złożyłem zamówienie na sakkę na bagażnik (BG-97841), ale okazało się, że podałem zły adres dostawy. Czy jest jeszcze możliwość zmienienia go, zanim paczka zostanie wysłana? Nowy adres to ul. Słoneczna 15, 30-123 Kraków. Będę bardzo wdzięczny za szybką odpowiedź.
+
+Pozdrawiam,
+Michał
+model summary: Customer needs to change delivery address before shipment.
+======================================================================
+e005 | category: return_complaint -> return_complaint | priority: medium -> high
+Temat: Uszkodzone zapięcie U-lock
+
+Cześć,
+
+Kupiłem u was zapięcie U-lock tydzień temu i niestety przestało działać po kilku dniach użytkowania. Klucz się nie przekręca i nie da się go otworzyć ani zamknąć. Chciałbym wiedzieć, czy mogę to wymienić na nowe lub uzyskać zwrot pieniędzy. Produktu używałem normalnie, bez żadnych uszkodzeń z mojej strony.
+
+Czekam na wiadomość.
+
+Pozdrawiam,
+Paweł
+model summary: U-lock lock mechanism broken after few days of use, requests exchange or refund.
+======================================================================
+e007 | category: product_question -> product_question | priority: low -> medium
+Temat: Pytanie o gwarancję na pompkę podłogową
+
+Cześć,
+Chciałabym się dowiedzieć, jaka gwarancja obowiązuje na pompkę podłogową, którą chcę sobie kupić. Czy mogę się spodziewać, że wytrzyma kilka lat zwykłego użytku? Pytam bo chcę być pewna przed złożeniem zamówienia, szczególnie jeśli będę jej używać często do opon rowerowych i motocyklowych. Z góry dziękuję za odpowiedź.
+
+Pozdrawiam,
+Magda
+model summary: Customer asks about warranty and durability of floor pump before purchase.
+======================================================================
+e009 | category: invoice_payment -> invoice_payment | priority: high -> medium
+Temat: Prośba o fakturę na firmę
+
+Dzień dobry,
+
+Zamówiłem u Was pompkę podłogową i chciałbym prosić o wystawienie faktury na moją firmę zamiast paragonu. Potrzebuję jej do rozliczeń księgowych. Czy jest to możliwe i jak długo to zajmie? Proszę o przesłanie wszystkich niezbędnych danych potrzebnych do wystawienia faktury.
+
+Z poważaniem,
+Paweł
+model summary: Customer requests invoice for company instead of receipt.
+======================================================================
+e010 | category: order_status -> order_status | priority: medium -> high
+Temat: Zmiana adresu dostawy zamówienie BG-94259
+
+Cześć,
+
+Złożyłam zamówienie pompki podłogowej (nr BG-94259) i właśnie zdałam sobie sprawę, że podałam złą ulicę. Mogę prosić o zmianę adresu dostawy, zanim paczka zostanie wysłana? Właściwy adres to ul. Słoneczna 15, 80-001 Gdańsk. Chciałabym uniknąć problemów z dostawą, więc liczę na szybką zmianę. Z góry dziękuję za pomoc!
+
+Magda
+model summary: Customer requests address change before shipment to avoid delivery problems.
+======================================================================
+e011 | category: return_complaint -> invoice_payment | priority: high -> medium
+Temat: Zwrot pieniędzy za anulowane zamówienie BG-83579
+
+Cześć,
+
+Zamówiłam u was sakwę na bagażnik, ale musiałam anulować zamówienie (numer BG-83579). Chciałabym się dowiedzieć, kiedy pojawią się zwrócone pieniądze na moim koncie? Zapłaciłam kartą, a od anulowania minął już kilka dni. Czy mogę liczyć na szybki zwrot?
+
+Z góry dzięki za pomoc.
+
+Pozdrawiam,
+Kasia
+model summary: Customer requests refund status for cancelled order BG-83579.
+======================================================================
+e015 | category: other -> partnership_spam | priority: low -> low
+Temat: Zapytanie dotyczące oferty pozycjonowania
+
+Cześć,
+
+Otrzymałem e-mail z propozycją pozycjonowania strony BikeGear.pl w bardzo niskiej cenie. Zanim cokolwiek podejmę, chciałbym wiedzieć, czy to rzeczywiście oferta od Was czy może to kolejny spam. Niedawno zamawiałem u Was sakwę na bagażnik (zamówienie BG-99192) i jestem zadowolony z obsługi, ale nie chciałbym, żeby ktoś inny nabierał nas na takie „super oferty". Czy mogę liczyć na odpowiedź?
+
+Pozdrawiam,
+Magda
+model summary: Customer asking if positioning offer email is legitimate or spam.
+======================================================================
+e016 | category: other -> partnership_spam | priority: low -> low
+Temat: Re: Oferta usług księgowych
+
+Cześć,
+
+dziękuję za wiadomość, ale nie jestem zainteresowany waszymi usługami. Jestem zwykłym klientem, a nie firmą – zamówiłem tylko uchwyt na telefon (zamówienie BG-88104) do swojego roweru. Myślę, że dostaliście mój mail przez pomyłkę albo wziął mnie za biznes. Pozdrawiam i powodzenia w poszukiwaniu klientów.
+
+Piotr
+model summary: Customer declines accounting services offer, states unsolicited email.
+======================================================================
+e017 | category: order_status -> order_status | priority: medium -> high
+Temat: Paczka nie została dostarczona
+
+Cześć,
+Kurier był dziś u mnie, ale nie zostawił paczki z dzwonkiem. Poszedł bez dzwonienia do drzwi, a ja byłam w domu. Co mam teraz zrobić? Czy paczka wróci do was czy mogę ją odebrać gdzieś indziej? Proszę o pomoc.
+Pozdrawiam,
+Kasia
+model summary: Courier did not deliver package, customer was home but not contacted.
+======================================================================
+e018 | category: product_question -> product_question | priority: low -> medium
+Temat: Pytanie o zapięcie U-lock do mojego roweru
+
+Cześć,
+Chciałabym się dowiedzieć, czy zapięcie U-lock z waszej oferty będzie pasować do mojego roweru marki Trek Domane AL 2. Interesuje mnie konkretnie model ze zdjęcia na stronie - ten czarny o wymiarach 110 mm. Czy to zapięcie zmieści się na ramie i czy jest wystarczająco długie do zabezpieczenia ramy i koła? Dziękuję za odpowiedź.
+
+Pozdrawiam,
+Magda
+model summary: Customer asks if U-lock model fits Trek Domane AL 2 bike.
+======================================================================
+e022 | category: order_status -> order_status | priority: medium -> high
+Temat: Zmiana adresu dostawy - zamówienie BG-59009
+
+Cześć,
+
+Właśnie złożyłem u was zamówienie dzwonka (nr BG-59009), ale zdałem sobie sprawę, że podałem zły adres dostawy. Czy jest możliwość zmianę adresu przed wysyłką? Chciałbym, aby paczka trafiła na mój adres w Krakowie zamiast tego, który pierwotnie wpisałem. Będę wdzięczny za szybką odpowiedź.
+
+Pozdrawiam,
+Paweł
+model summary: Customer requests urgent address change before shipment.
+======================================================================
+e025 | category: return_complaint -> return_complaint | priority: medium -> high
+Temat: Pytanie o dropshipping dla sklepu + błąd w zamówieniu BG-84364
+
+Dzień dobry,
+
+Trafiłem na Waszą stronę i jestem zainteresowany współpracą w modelu dropshipping. Prowadzę sklep internetowy i szukam niezawodnego dostawcy akcesoriów rowerowych. Czy oferujecie usługę dropshippingu i jakie są warunki dla partnerów biznesowych?
+
+Jednocześnie chciałbym zgłosić problem z moim ostatnim zamówieniem BG-84364. Kupiłem zestaw kluczy do roweru (6-częściowy), ale zestaw zawiera klucze o zbyt małych rozmiarach — nie pasują do moich felg. Czy jest możliwość wymiany produktu na wersję z większymi kluczami albo zwrot pieniędzy?
+
+Proszę o szybką odpowiedź w obu sprawach.
+
+Pozdrawiam,
+Tomasz
+model summary: Product size issue with wrench set, requests exchange or refund.
+======================================================================
+e026 | category: invoice_payment -> invoice_payment | priority: high -> medium
+Temat: Prośba o fakturę na firmę - zamówienie BG-19071
+
+Dzień dobry,
+
+Zamówiłem u Was zapięcie U-lock (zamówienie BG-19071) i chciałbym prosić o wystawienie faktury na moją firmę zamiast paragonu. Potrzebuję jej do rozliczeń księgowych. Czy będzie to możliwe i ile czasu to zajmie? Mogę przesłać dane firmy, jeśli trzeba.
+
+Pozdrawiam,
+Krzysztof
+model summary: Customer requests company invoice instead of receipt for order BG-19071.
+======================================================================
+e027 | category: invoice_payment -> invoice_payment | priority: high -> medium
+Temat: Problem z fakturą do zamówienia
+
+Cześć,
+
+Otrzymałem fakturę do mojego ostatniego zamówienia sakwy na bagażnik i zauważyłem, że jest na niej błędny NIP. Moja firma ma inny numer niż ten wpisany na dokumentzie. Czy możliwe byłoby wystawienie poprawionej faktury? Będę bardzo wdzięczny za szybkie rozwiązanie tego problemu.
+
+Pozdrawiam,
+Marta
+model summary: Customer requests corrected invoice with proper company tax number.
+======================================================================
+e028 | category: product_question -> product_question | priority: low -> medium
+Temat: Pytanie o gwarancję na sakwę na bagażnik
+
+Cześć,
+
+Jestem zainteresowana zakupem sakwy na bagażnik, ale zanim złożę zamówienie, chciałabym wiedzieć na jak długo macie na nią gwarancję. Czy obejmuje ona np. uszkodzenia spoin czy rozdarcia materiału? Chętnie bym widziała również informacje o warunkach zwrotu, gdyby okazało się, że produkt mnie nie zadowoli. Z góry dziękuję za odpowiedź!
+
+Pozdrawiam,
+Kasia
+model summary: Question about warranty and return conditions for rack bag before purchase.
+======================================================================
+e035 | category: order_status -> order_status | priority: medium -> high
+Temat: Zmiana adresu dostawy - zamowienie BG-97684
+
+Dzien dobry,
+
+Zlozylem zamowienie nr BG-97684 (zapieciee U-lock) kilka godzin temu, ale zrealizowalem, ze podalem zly adres dostawy. Prosze o zmiane adresu przed wysylka paczki.
+
+Nowy adres to:
+ul. Pulawska 45/12
+02-595 Warszawa
+
+Zamowienie bylo opłacone kartą. Prosze o potwierdzenie, czy beda problemy ze zmiana adresu.
+
+Dziekuje za szybka pomoc!
+
+Pozdrawiam,
+Agnieszka
+model summary: Customer requests address change before shipment of recent order.
+======================================================================
+e047 | category: order_status -> order_status | priority: high -> medium
+Temat: Paczka nie została dostarczona - lampka LED
+
+Cześć,
+
+Dzisiaj czekałem na dostawę mojego zamówienia BG-61173, ale kurier nie zostawił paczki. Próbował mi dzwonić, ale akurat byłem w pracy i nie mogłem odebrać. Czy macie możliwość przesunąć dostawę na inny dzień albo czy paczka wróci do Was? Co powinienem zrobić, aby jak najszybciej otrzymać lampkę?
+
+Dziękuję za pomoc.
+
+Marta
+model summary: Delivery attempt failed; customer requests rescheduling or status update on LED light package.
+======================================================================
+e050 | category: other -> partnership_spam | priority: low -> low
+Temat: Zapytanie dotyczące oferty pozycjonowania
+
+Cześć,
+
+Niedawno kupiłem u was uchwyt na telefon (zamówienie BG-51104) i jestem bardzo zadowolony z jakości. Otrzymałem dzisiaj maila z propozycją pozycjonowania strony za bardzo niską cenę i chciałbym wiedzieć, czy to wasza oferta czy może to spam? Nie chcę, żeby wasi konkurenci robili coś takiego z moimi danymi. Może warto wam być ostrożniejszym z informacjami klientów?
+
+Pozdrawiam,
+Krzysztof
+model summary: Customer received unsolicited SEO positioning offer, asks if legitimate.
