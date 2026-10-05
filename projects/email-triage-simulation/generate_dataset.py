@@ -1,16 +1,20 @@
 import csv
 import random
 from pathlib import Path
+import argparse
 
 import anthropic
 from dotenv import load_dotenv
 
 load_dotenv()
 client = anthropic.Anthropic()
-random.seed(42)
-
+parser = argparse.ArgumentParser()
+parser.add_argument("--fresh", action="store_true")
+args = parser.parse_args()
+random.seed(2026 if args.fresh else 42)
+   
 MODEL = "claude-haiku-4-5-20251001"
-OUT = Path(__file__).parent / "dataset" / "emails.csv"
+OUT = Path(__file__).parent / "dataset" / ("emails_fresh.csv" if args.fresh else "emails.csv")
 
 COUNTS = {
     "zwrot_reklamacja": 10,
@@ -20,6 +24,10 @@ COUNTS = {
     "wspolpraca_spam": 6,
     "inne": 8,
 }
+
+if args.fresh:
+       COUNTS = {"return_complaint": 6, "order_status": 6, "product_question": 5,
+                 "invoice_payment": 5, "partnership_spam": 4, "other": 4}
 
 SITUATIONS = {
     "zwrot_reklamacja": [
@@ -64,6 +72,8 @@ SITUATIONS = {
         "kandydat wysyła zapytanie o pracę w sklepie",
         "ktoś pisze do niewłaściwej firmy",
         "prośba o katalog lub newsletter",
+        "klient pyta, czy otrzymana oferta pozycjonowania pochodzi od sklepu",
+        "klient odpisuje na niechciany mail reklamowy, że nie jest zainteresowany",
     ],
 }
 
@@ -99,8 +109,9 @@ def build_specs():
         for _ in range(n):
             specs.append({"category": category, "style": NORMAL_STYLE})
     random.shuffle(specs)
-    for spec, style in zip(random.sample(specs, len(HARD_STYLES)), HARD_STYLES):
-        spec["style"] = style
+    n_hard = 6 if args.fresh else len(HARD_STYLES)
+    for spec, style in zip(random.sample(specs, n_hard), random.sample(HARD_STYLES, n_hard)):
+           spec["style"] = style
     return specs
 
 
@@ -138,7 +149,7 @@ def main():
     rows = []
     for i, spec in enumerate(specs, start=1):
         text = generate_email(spec)
-        rows.append({"id": f"e{i:03d}", "email": text})
+        rows.append({"id": f"{'f' if args.fresh else 'e'}{i:03d}", "email": text})
         print(f"{i}/{len(specs)} ok")
 
     with open(OUT, "w", newline="", encoding="utf-8") as f:

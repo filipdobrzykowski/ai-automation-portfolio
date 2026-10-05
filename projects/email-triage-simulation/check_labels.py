@@ -1,8 +1,9 @@
 import csv
 from collections import Counter
 from pathlib import Path
+import sys
 
-path = Path(__file__).parent / "dataset" / "labels.csv"
+path = Path(__file__).parent / "dataset" / (sys.argv[1] if len(sys.argv) > 1 else "labels.csv")
 CATEGORIES = {"return_complaint", "order_status", "product_question",
               "invoice_payment", "partnership_spam", "other"}
 PRIORITIES = {"high", "medium", "low"}

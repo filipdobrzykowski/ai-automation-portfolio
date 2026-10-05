@@ -1,0 +1,3 @@
+Predictions file: predictions_v1_20261005_122723.csv
+category: original labels 46/50 (92.0%) -> after 6 documented corrections 47/50 (94.0%)
+priority: original labels 34/50 (68.0%) -> after 6 documented corrections 39/50 (78.0%)

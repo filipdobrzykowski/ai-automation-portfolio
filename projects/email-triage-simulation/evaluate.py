@@ -5,6 +5,7 @@ import time
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
+import argparse
 
 import anthropic
 from dotenv import load_dotenv
@@ -13,16 +14,22 @@ load_dotenv()
 client = anthropic.Anthropic()
 
 MODEL = "claude-haiku-4-5-20251001"
-PROMPT_VERSION = "v1"
+parser = argparse.ArgumentParser()
+parser.add_argument("--version", default="v1")
+parser.add_argument("--scenario", default="scenario_v1.md")
+parser.add_argument("--emails", default="dataset/emails.csv")
+parser.add_argument("--labels", default="dataset/labels.csv")
+args = parser.parse_args()
+PROMPT_VERSION = args.version
 
 # Ceny w USD za 1M tokenów. To założenie, sprawdź aktualny cennik w dokumentacji Anthropic.
 PRICE_IN_PER_M = 1.00
 PRICE_OUT_PER_M = 5.00
 
 BASE = Path(__file__).parent
-EMAILS = BASE / "dataset" / "emails.csv"
-LABELS = BASE / "dataset" / "labels.csv"
-SCENARIO = BASE / "scenario.md"
+EMAILS = BASE / args.emails
+LABELS = BASE / args.labels
+SCENARIO = BASE / args.scenario
 RESULTS = BASE / "results"
 
 CATEGORIES = ["return_complaint", "order_status", "product_question",
