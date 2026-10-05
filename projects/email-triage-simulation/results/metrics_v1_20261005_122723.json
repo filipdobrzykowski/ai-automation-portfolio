@@ -1,0 +1,15 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "v1",
+  "timestamp": "20261005_122723",
+  "n": 50,
+  "category_correct": 46,
+  "priority_correct": 34,
+  "order_number_correct": 48,
+  "unparseable": 0,
+  "by_difficulty": {},
+  "tokens_in": 38723,
+  "tokens_out": 2488,
+  "cost_usd_assumed_prices": 0.05116,
+  "latency_mean_s": 1.55
+}

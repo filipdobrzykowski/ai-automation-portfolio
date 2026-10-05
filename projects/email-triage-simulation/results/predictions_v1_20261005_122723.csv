@@ -1,0 +1,51 @@
+id,true_category,pred_category,true_priority,pred_priority,true_order,pred_order,hard,summary,parse_ok,latency_s
+e001,product_question,product_question,low,low,none,none,n/a,Customer asks about U-lock availability in black color.,True,1.14
+e002,product_question,product_question,low,medium,none,none,n/a,Customer asks for dimensions and weight of U-lock before purchasing.,True,0.91
+e003,order_status,order_status,high,high,none,none,n/a,"Package not delivered, customer needs it this weekend.",True,0.95
+e004,order_status,order_status,medium,high,BG-97841,BG-97841,n/a,Customer needs to change delivery address before shipment.,True,0.97
+e005,return_complaint,return_complaint,medium,high,none,none,n/a,"U-lock lock mechanism broken after few days of use, requests exchange or refund.",True,1.05
+e006,product_question,product_question,low,low,BG-45382,BG-45382,n/a,"Customer requests product catalog and newsletter subscription, interested in floor pumps.",True,1.04
+e007,product_question,product_question,low,medium,none,none,n/a,Customer asks about warranty and durability of floor pump before purchase.,True,1.05
+e008,return_complaint,return_complaint,high,high,BG-45093,BG-45093,n/a,"Wrong color received, needs exchange before weekend trip.",True,0.92
+e009,invoice_payment,invoice_payment,high,medium,none,none,n/a,Customer requests invoice for company instead of receipt.,True,1.01
+e010,order_status,order_status,medium,high,BG-94259,BG-94259,n/a,Customer requests address change before shipment to avoid delivery problems.,True,1.0
+e011,return_complaint,invoice_payment,high,medium,BG-83579,BG-83579,n/a,Customer requests refund status for cancelled order BG-83579.,True,1.02
+e012,product_question,product_question,medium,medium,none,none,n/a,Customer asks about warranty coverage and documentation for bicycle wrench set.,True,1.02
+e013,order_status,order_status,medium,medium,none,none,n/a,"Package not delivered, customer needs help rescheduling or picking up.",True,10.88
+e014,return_complaint,return_complaint,high,high,BG-16175,BG-16175,n/a,"Wrong color bell received, needs replacement by weekend deadline.",True,0.97
+e015,other,partnership_spam,low,low,BG-99192,none,n/a,Customer asking if positioning offer email is legitimate or spam.,True,1.11
+e016,other,partnership_spam,low,low,BG-88104,BG-88104,n/a,"Customer declines accounting services offer, states unsolicited email.",True,0.93
+e017,order_status,order_status,medium,high,none,none,n/a,"Courier did not deliver package, customer was home but not contacted.",True,1.05
+e018,product_question,product_question,low,medium,none,none,n/a,Customer asks if U-lock model fits Trek Domane AL 2 bike.,True,1.05
+e019,invoice_payment,invoice_payment,high,high,BG-30730,BG-30730,n/a,"Payment confirmation missing, needs item by next week Monday.",True,1.19
+e020,return_complaint,return_complaint,medium,medium,none,none,n/a,Customer wants to return unused LED light within 14-day window.,True,0.93
+e021,other,other,low,low,BG-23947,BG-23947,n/a,Customer inquires about job opportunities at BikeGear.pl,True,2.13
+e022,order_status,order_status,medium,high,BG-59009,BG-59009,n/a,Customer requests urgent address change before shipment.,True,0.99
+e023,invoice_payment,invoice_payment,high,high,none,none,n/a,"Payment charged twice, customer requests refund for duplicate charge.",True,1.05
+e024,other,other,low,low,BG-24662,BG-24662,n/a,Customer thanks for fast delivery and warns about future service expectations.,True,11.21
+e025,return_complaint,return_complaint,medium,high,BG-84364,BG-84364,n/a,"Product size issue with wrench set, requests exchange or refund.",True,1.02
+e026,invoice_payment,invoice_payment,high,medium,BG-19071,BG-19071,n/a,Customer requests company invoice instead of receipt for order BG-19071.,True,0.98
+e027,invoice_payment,invoice_payment,high,medium,none,none,n/a,Customer requests corrected invoice with proper company tax number.,True,1.07
+e028,product_question,product_question,low,medium,none,none,n/a,Question about warranty and return conditions for rack bag before purchase.,True,1.11
+e029,product_question,product_question,low,low,none,none,n/a,Customer asks about differences between two floor pump models for home workshop use.,True,1.04
+e030,other,other,low,low,none,none,n/a,Customer asks about physical store location and opening hours in Warsaw.,True,0.9
+e031,product_question,product_question,medium,medium,BG-42493,BG-42493,n/a,Which front fenders are available to add to order?,True,1.14
+e032,partnership_spam,partnership_spam,low,low,BG-82603,BG-82603,n/a,Instagram influencer proposes partnership collaboration for product promotion.,True,1.13
+e033,invoice_payment,invoice_payment,high,high,BG-92719,BG-92719,n/a,"Double payment charged for phone holder, requesting refund.",True,1.02
+e034,other,other,low,low,none,none,n/a,Customer thanks shop for fast delivery and excellent service.,True,1.13
+e035,order_status,order_status,medium,high,BG-97684,BG-97684,n/a,Customer requests address change before shipment of recent order.,True,1.13
+e036,return_complaint,return_complaint,high,high,BG-84847,BG-84847,n/a,"Floor pump valve broken, customer angry, demands refund or replacement.",True,1.02
+e037,product_question,product_question,low,low,none,none,n/a,Customer interested in bicycle fenders and wants catalog or newsletter.,True,1.03
+e038,return_complaint,return_complaint,high,high,BG-66498,BG-66498,n/a,Customer wants to return floor pump with faulty gauge within 14-day window.,True,1.07
+e039,product_question,product_question,medium,medium,none,none,n/a,Customer asks about bike computer dimensions and weight before purchase.,True,1.0
+e040,partnership_spam,partnership_spam,low,low,none,none,n/a,Partnership offer for website positioning and SEO services.,True,0.82
+e041,return_complaint,return_complaint,high,high,NOONE,BG-68800,n/a,"Damaged floor pump received; manometer cracked, air valve defective.",True,0.98
+e042,invoice_payment,invoice_payment,high,high,BG-42742,BG-42742,n/a,"Payment charged twice for bicycle computer, needs refund.",True,0.94
+e043,return_complaint,return_complaint,high,high,none,none,n/a,"Customer received damaged fender, requests exchange or refund.",True,1.28
+e044,return_complaint,return_complaint,high,high,none,none,n/a,U-lock missing from package received today.,True,6.46
+e045,order_status,order_status,medium,medium,none,none,n/a,Customer asks for tracking number for LED bike light ordered week ago.,True,0.95
+e046,order_status,order_status,medium,medium,BG-38016,BG-38016,n/a,Customer asking when order BG-38016 will be shipped this week.,True,1.02
+e047,order_status,order_status,high,medium,BG-61173,BG-61173,n/a,Delivery attempt failed; customer requests rescheduling or status update on LED light package.,True,1.16
+e048,return_complaint,return_complaint,high,high,BG-82845,BG-82845,n/a,"Customer reports broken mudguards from order, requests exchange or return.",True,0.91
+e049,return_complaint,return_complaint,medium,medium,BG-38534,BG-38534,n/a,Customer wants to exchange mudguards for smaller size M.,True,0.81
+e050,other,partnership_spam,low,low,BG-51104,BG-51104,n/a,"Customer received unsolicited SEO positioning offer, asks if legitimate.",True,0.99
