@@ -1,0 +1,31 @@
+id,true_category,pred_category,true_priority,pred_priority,true_order,pred_order,hard,summary,parse_ok,latency_s
+f001,product_question,product_question,medium,medium,BG-94514,none,n/a,"Customer asks about dimensions, weight, and compatibility of tool set BG-94514.",True,1.23
+f002,order_status,order_status,medium,medium,none,none,n/a,Customer asks for tracking number and delivery time for bicycle tools order.,True,1.22
+f003,order_status,order_status,high,high,BG-62268,BG-62268,n/a,Customer requests address change before shipment for bicycle helmet order.,True,1.13
+f004,return_complaint,return_complaint,high,high,none,none,n/a,"Customer received package missing bell from set, requests quick resolution.",True,1.11
+f005,return_complaint,return_complaint,medium,medium,none,none,n/a,Customer wants to exchange bicycle bell that doesn't fit handlebars.,True,0.97
+f006,other,return_complaint,low,high,none,none,n/a,"Rear mudguard missing from delivery, customer received only front mudguard.",True,0.98
+f007,invoice_payment,invoice_payment,medium,medium,none,none,n/a,Customer paid for order yesterday but received no payment confirmation email.,True,1.05
+f008,other,partnership_spam,low,low,none,none,n/a,"Customer received accounting services offer by mistake, not interested.",True,1.05
+f009,return_complaint,return_complaint,high,high,BG-16407,BG-16407,n/a,Pump defective after three weeks; no response for two weeks; threatens UOKiK complaint.,True,1.51
+f010,return_complaint,return_complaint,medium,medium,BG-91567,BG-91567,n/a,Customer wants to exchange bell for quieter model in black color.,True,1.16
+f011,order_status,order_status,medium,high,BG-40005,BG-40005,n/a,"Package not delivered today despite customer being home, requests redelivery or address change.",True,1.2
+f012,return_complaint,return_complaint,high,high,BG-81517,BG-81517,n/a,Damaged mudguards received; customer requests replacement or refund.,True,1.22
+f013,order_status,order_status,high,high,none,none,n/a,Customer needs urgent delivery address change before shipment.,True,0.92
+f014,return_complaint,return_complaint,medium,high,none,none,n/a,"Bicycle bell broken after one week, requests exchange or return.",True,1.0
+f015,other,partnership_spam,low,low,none,none,n/a,"Customer declines accounting services offer, mentions existing bike computer order.",True,1.01
+f016,product_question,product_question,low,medium,none,none,n/a,Customer asks if LED light is compatible with Trek FX 3 bike.,True,0.94
+f017,product_question,product_question,low,low,none,none,n/a,Customer asks about warranty coverage for fenders before purchase.,True,0.95
+f018,partnership_spam,partnership_spam,low,low,none,none,n/a,Dropshipping partnership inquiry from bike shop owner interested in floor pump.,True,0.99
+f019,invoice_payment,invoice_payment,medium,medium,none,none,n/a,Customer inquires about refund status for cancelled bike bell order.,True,1.34
+f020,product_question,product_question,low,medium,none,none,n/a,Customer asks about differences between two bell models before purchase.,True,1.25
+f021,invoice_payment,invoice_payment,high,medium,none,none,n/a,"Customer paid for bike helmet yesterday, no payment confirmation received yet.",True,1.23
+f022,other,partnership_spam,low,low,none,none,n/a,"Rejects website positioning service offer, no budget interest.",True,1.06
+f023,invoice_payment,invoice_payment,high,medium,none,none,n/a,Invoice has wrong NIP and possible VAT calculation error.,True,0.91
+f024,order_status,order_status,low,medium,none,none,n/a,Customer asks about delivery time for recent bike counter order.,True,0.98
+f025,other,other,low,low,BG-35504,BG-35504,n/a,Customer thanks for fast delivery and product quality.,True,0.86
+f026,invoice_payment,invoice_payment,medium,medium,none,none,n/a,"Customer cancelled order, asks about refund timeline for credit card payment.",True,1.0
+f027,other,other,low,low,BG-20887,BG-20887,n/a,Customer thanks for fast delivery and product quality.,True,0.8
+f028,product_question,product_question,low,medium,BG-15853,BG-15853,n/a,Customer asks about warranty coverage for floor pump before purchasing.,True,0.98
+f029,order_status,order_status,high,high,none,none,n/a,Customer needs tracking number urgently before Saturday deadline.,True,0.85
+f030,return_complaint,return_complaint,medium,high,BG-86423,BG-86423,n/a,"Damaged pannier bag after one week; seams torn, requests exchange or refund.",True,1.16

@@ -1,0 +1,68 @@
+1/30 f001
+2/30 f002
+3/30 f003
+4/30 f004
+5/30 f005
+6/30 f006
+7/30 f007
+8/30 f008
+9/30 f009
+10/30 f010
+11/30 f011
+12/30 f012
+13/30 f013
+14/30 f014
+15/30 f015
+16/30 f016
+17/30 f017
+18/30 f018
+19/30 f019
+20/30 f020
+21/30 f021
+22/30 f022
+23/30 f023
+24/30 f024
+25/30 f025
+26/30 f026
+27/30 f027
+28/30 f028
+29/30 f029
+30/30 f030
+
+=== RESULTS ===
+Model: claude-haiku-4-5-20251001 | prompt: v2-fresh | n = 30
+Category accuracy: 28/30 (93.3%)
+Priority accuracy: 19/30 (63.3%)
+Order number accuracy: 28/30 (93.3%)
+Unparseable responses: 0
+
+Category confusion matrix (rows = true, columns = predicted):
+                    return_co  order_sta  product_q  invoice_p  partnersh  other      <invalid>  
+return_complaint    7          0          0          0          0          0          0          
+order_status        0          6          0          0          0          0          0          
+product_question    0          0          5          0          0          0          0          
+invoice_payment     0          0          0          5          0          0          0          
+partnership_spam    0          0          0          0          1          0          0          
+other               1          0          0          0          1          4          0          
+
+Category or priority errors:
+  f006: category other -> return_complaint | priority low -> high
+  f011: category order_status -> order_status | priority medium -> high
+  f014: category return_complaint -> return_complaint | priority medium -> high
+  f016: category product_question -> product_question | priority low -> medium
+  f017: category product_question -> product_question | priority low -> medium
+  f020: category product_question -> product_question | priority low -> medium
+  f021: category invoice_payment -> invoice_payment | priority high -> medium
+  f022: category other -> partnership_spam | priority low -> low
+  f023: category invoice_payment -> invoice_payment | priority high -> medium
+  f024: category order_status -> order_status | priority low -> medium
+  f028: category product_question -> product_question | priority low -> medium
+  f030: category return_complaint -> return_complaint | priority medium -> high
+
+Cost and time:
+  Tokens in/out: 27021/1481
+  Cost for this run: $0.0344 (prices assumed, verify)
+  Cost per 1,000 emails: $1.15
+  Latency: mean 1.26s, median 1.04s
+
+Zapisano: predictions_v2-fresh_20261005_171743.csv
