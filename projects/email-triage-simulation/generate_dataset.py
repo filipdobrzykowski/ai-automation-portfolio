@@ -17,12 +17,12 @@ MODEL = "claude-haiku-4-5-20251001"
 OUT = Path(__file__).parent / "dataset" / ("emails_fresh.csv" if args.fresh else "emails.csv")
 
 COUNTS = {
-    "zwrot_reklamacja": 10,
-    "status_zamowienia": 10,
-    "pytanie_o_produkt": 8,
-    "faktura_platnosc": 8,
-    "wspolpraca_spam": 6,
-    "inne": 8,
+    "return_complaint": 10,
+    "order_status": 10,
+    "product_question": 8,
+    "invoice_payment": 8,
+    "partnership_spam": 6,
+    "other": 8,
 }
 
 if args.fresh:
@@ -30,7 +30,7 @@ if args.fresh:
                  "invoice_payment": 5, "partnership_spam": 4, "other": 4}
 
 SITUATIONS = {
-    "zwrot_reklamacja": [
+    "return_complaint": [
         "produkt przyszedł uszkodzony",
         "klient dostał zły rozmiar lub wariant",
         "produkt przestał działać po kilku dniach",
@@ -38,35 +38,35 @@ SITUATIONS = {
         "w paczce brakuje części zestawu",
         "klient chce wymienić produkt na inny",
     ],
-    "status_zamowienia": [
+    "order_status": [
         "zamówienie nie dotarło mimo upływu terminu",
         "klient pyta, kiedy zamówienie zostanie wysłane",
         "klient chce zmienić adres dostawy przed wysyłką",
         "kurier nie zostawił paczki, klient pyta co dalej",
         "klient pyta o numer do śledzenia paczki",
     ],
-    "pytanie_o_produkt": [
+    "product_question": [
         "pytanie o kompatybilność produktu z konkretnym rowerem",
         "pytanie o dostępność produktu w innym kolorze",
         "pytanie o wymiary lub wagę przed zakupem",
         "pytanie, czym różnią się dwa podobne modele",
         "pytanie o gwarancję na produkt przed zakupem",
     ],
-    "faktura_platnosc": [
+    "invoice_payment": [
         "klient prosi o fakturę na firmę do zamówienia",
         "płatność została pobrana dwa razy",
         "klient nie dostał potwierdzenia płatności",
         "klient pyta o zwrot pieniędzy po anulowaniu zamówienia",
         "błąd na fakturze (zły NIP lub kwota)",
     ],
-    "wspolpraca_spam": [
+    "partnership_spam": [
         "oferta pozycjonowania strony za niską cenę",
         "propozycja współpracy od influencera rowerowego",
         "reklama hurtowni oferującej dropshipping",
         "automatyczna oferta usług księgowych",
         "propozycja wymiany linków",
     ],
-    "inne": [
+    "other": [
         "podziękowanie za szybką realizację zamówienia",
         "pytanie o godziny pracy lub adres sklepu stacjonarnego",
         "kandydat wysyła zapytanie o pracę w sklepie",
