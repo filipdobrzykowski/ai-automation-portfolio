@@ -1,0 +1,21 @@
+id,kind,detail,expected_route,invoice_number,issue_date,seller_name,seller_nip,buyer_nip,net_amount,vat_rate,vat_amount,gross_amount
+t001,normal,,auto,FV 469/2025,2025-04-24,Polo Studio Sp. j.,8075364555,7815188446,12097.72,8,967.82,13065.54
+t002,normal,,auto,INV-2026-0574,2026-08-01,Wisła Meble P.P.H.U.,1932081960,8273177842,20148.68,23,4634.20,24782.88
+t003,normal,,auto,FV/2026/04/0380,2026-04-23,Stalmet Hurt P.P.H.U.,8680457173,9472671479,21494.08,8,1719.53,23213.61
+t004,normal,,auto,INV-2026-0314,2026-10-13,Biały Projekt S.A.,6997283798,3984162298,15034.17,23,3457.86,18492.03
+t005,hard,missing:invoice_number,review,,2026-04-06,Wisła Projekt Sp. z o.o.,8799229836,7957931866,13725.22,0,0.00,13725.22
+t006,normal,,auto,2026/02/FV/123,2026-02-04,Kamienny Serwis S.A.,7164252478,8647258772,11492.35,23,2643.24,14135.59
+t007,hard,missing:buyer_nip,review,FV/2025/06/0989,2025-06-25,Nova Serwis S.A.,6218549143,,4497.46,23,1034.42,5531.88
+t008,hard,amount_en,auto,FV/2026/12/0203,2026-12-04,Tęcza Serwis S.A.,5645060455,5146590850,16692.85,5,834.64,17527.49
+t009,doc_error,sum_mismatch,review,FV 696/2026,2026-05-06,Polo Hurt P.P.H.U.,6291280845,6850037033,17577.14,23,4042.74,21658.36
+t010,hard,amount_dot,auto,INV-2025-0046,2025-06-07,Biały Logistyka S.A.,6860214583,5210839496,21336.36,5,1066.82,22403.18
+t011,hard,date_long,auto,FV/2026/01/0684,2026-01-01,Kamienny Druk Sp. z o.o.,4097658285,1258220180,5670.56,0,0.00,5670.56
+t012,hard,missing:vat_amount,review,2026/05/FV/340,2026-05-01,Polo Hurt P.P.H.U.,9357951117,8443256889,20969.06,23,,25791.94
+t013,hard,nip_prefix,auto,FV 742/2026,2026-07-29,Nova Meble Sp. j.,8660856510,8883655062,5218.90,23,1200.35,6419.25
+t014,hard,missing:vat_amount,review,FV 729/2026,2026-06-12,Zielony Handel Sp. j.,6183801253,4739241961,11664.42,23,,14347.24
+t015,hard,missing:buyer_nip,review,FV/2026/10/0495,2026-10-22,Kamienny Logistyka Sp. j.,8547354861,,20602.28,23,4738.52,25340.80
+t016,doc_error,vat_mismatch,review,FV 770/2026,2026-09-14,Wisła Projekt P.P.H.U.,3229004428,3485272206,23173.56,8,1882.24,25055.80
+t017,doc_error,bad_nip:seller_nip,review,INV-2025-0645,2025-02-11,Polo Logistyka P.P.H.U.,2594502833,6286675340,19798.34,23,4553.62,24351.96
+t018,hard,missing:invoice_number,review,,2025-05-29,Polo Hurt Sp. j.,6607874570,3128357697,11321.41,23,2603.92,13925.33
+t019,hard,english,auto,FV/2026/06/0996,2026-06-25,Tęcza Serwis Sp. z o.o.,7979780251,3016128402,19026.63,23,4376.12,23402.75
+t020,normal,,auto,FV 568/2026,2026-06-27,Mazurska Budowa Sp. z o.o.,5385469057,9281953913,19571.18,8,1565.69,21136.87
