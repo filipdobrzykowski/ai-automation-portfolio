@@ -1,5 +1,7 @@
 # Support Ticket Classifier
 
+> Learning project, built with the help of an AI assistant (Claude).
+
 Automatic classification of incoming customer requests using an LLM.
 
 ## Problem

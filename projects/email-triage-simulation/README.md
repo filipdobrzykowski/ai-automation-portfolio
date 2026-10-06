@@ -1,5 +1,6 @@
 # Email Triage (Simulated Scenario)
 
+> Learning project, built with the help of an AI assistant (Claude).
 
 ## What it does
 For each customer email the model returns a category, a priority, the order
