@@ -1,0 +1,32 @@
+=== EVALUATION ===
+Predictions: predictions_v2_dev_20261007_001616.csv | prompt: v2 | set: dev | n = 60
+
+Field accuracy:
+  invoice_number  60/60 (100.0%)
+  issue_date      60/60 (100.0%)
+  seller_name     60/60 (100.0%)
+  seller_nip      60/60 (100.0%)
+  buyer_nip       60/60 (100.0%)
+  net_amount      60/60 (100.0%)
+  vat_rate        60/60 (100.0%)
+  vat_amount      60/60 (100.0%)
+  gross_amount    60/60 (100.0%)
+
+Invoice accuracy (all 9 fields correct): 60/60 (100.0%)
+Route accuracy: 60/60 (100.0%)
+Unparseable responses: 0
+
+Invoices with at least one wrong field: 0
+  caught by checks (routed review): 0
+  SILENT ERRORS (routed auto): 0/60 (0.0%)
+Needless reviews (all fields correct, document correct, routed review): 0/47
+Documents with an injected error or missing field routed review: 13/13
+
+By kind:
+  hard       n=15 invoice accuracy 100.0%, route accuracy 100.0%, silent errors 0
+  normal     n=35 invoice accuracy 100.0%, route accuracy 100.0%, silent errors 0
+  doc_error  n=10 invoice accuracy 100.0%, route accuracy 100.0%, silent errors 0
+
+Details (invoices with a wrong field or a wrong route):
+
+Saved: eval_v2_dev_20261007_001617.json

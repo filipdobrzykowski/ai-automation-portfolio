@@ -1,0 +1,70 @@
+1/60 i001 route=auto checks=- fields=9/9
+2/60 i002 route=auto checks=- fields=9/9
+3/60 i003 route=review checks=nip_checksum fields=9/9
+4/60 i004 route=auto checks=- fields=9/9
+5/60 i005 route=auto checks=- fields=9/9
+6/60 i006 route=auto checks=- fields=9/9
+7/60 i007 route=review checks=sum_mismatch fields=9/9
+8/60 i008 route=review checks=nip_checksum fields=9/9
+9/60 i009 route=auto checks=- fields=9/9
+10/60 i010 route=auto checks=- fields=9/9
+11/60 i011 route=auto checks=- fields=9/9
+12/60 i012 route=auto checks=- fields=9/9
+13/60 i013 route=auto checks=- fields=9/9
+14/60 i014 route=auto checks=- fields=9/9
+15/60 i015 route=auto checks=- fields=9/9
+16/60 i016 route=review checks=missing_field fields=9/9
+17/60 i017 route=auto checks=- fields=9/9
+18/60 i018 route=auto checks=- fields=9/9
+19/60 i019 route=review checks=nip_checksum fields=9/9
+20/60 i020 route=auto checks=- fields=9/9
+21/60 i021 route=auto checks=- fields=9/9
+22/60 i022 route=auto checks=- fields=9/9
+23/60 i023 route=review checks=sum_mismatch fields=9/9
+24/60 i024 route=auto checks=- fields=9/9
+25/60 i025 route=auto checks=- fields=9/9
+26/60 i026 route=auto checks=- fields=9/9
+27/60 i027 route=auto checks=- fields=9/9
+28/60 i028 route=auto checks=- fields=9/9
+29/60 i029 route=auto checks=- fields=9/9
+30/60 i030 route=review checks=vat_mismatch fields=9/9
+31/60 i031 route=auto checks=- fields=9/9
+32/60 i032 route=auto checks=- fields=9/9
+33/60 i033 route=auto checks=- fields=9/9
+34/60 i034 route=auto checks=- fields=9/9
+35/60 i035 route=review checks=missing_field fields=9/9
+36/60 i036 route=auto checks=- fields=9/9
+37/60 i037 route=auto checks=- fields=9/9
+38/60 i038 route=auto checks=- fields=9/9
+39/60 i039 route=auto checks=- fields=9/9
+40/60 i040 route=review checks=date_invalid fields=9/9
+41/60 i041 route=auto checks=- fields=9/9
+42/60 i042 route=auto checks=- fields=9/9
+43/60 i043 route=review checks=date_invalid fields=9/9
+44/60 i044 route=auto checks=- fields=9/9
+45/60 i045 route=auto checks=- fields=9/9
+46/60 i046 route=auto checks=- fields=9/9
+47/60 i047 route=auto checks=- fields=9/9
+48/60 i048 route=auto checks=- fields=9/9
+49/60 i049 route=review checks=sum_mismatch fields=9/9
+50/60 i050 route=auto checks=- fields=9/9
+51/60 i051 route=auto checks=- fields=9/9
+52/60 i052 route=review checks=vat_mismatch fields=9/9
+53/60 i053 route=auto checks=- fields=9/9
+54/60 i054 route=auto checks=- fields=9/9
+55/60 i055 route=auto checks=- fields=9/9
+56/60 i056 route=auto checks=- fields=9/9
+57/60 i057 route=review checks=missing_field fields=9/9
+58/60 i058 route=auto checks=- fields=9/9
+59/60 i059 route=auto checks=- fields=9/9
+60/60 i060 route=auto checks=- fields=9/9
+
+=== RUN SUMMARY ===
+Model: claude-haiku-4-5-20251001 | prompt: v2 | set: dev | n = 60
+Routes: {'auto': 47, 'review': 13}
+Unparseable responses: 0
+Tokens in/out: 44375/8518
+Cost for this run: $0.0870 (prices assumed, verify)
+Cost per 1,000 invoices: $1.45
+Latency: mean 1.45s, median 1.45s
+Saved: predictions_v2_dev_20261007_001616.csv

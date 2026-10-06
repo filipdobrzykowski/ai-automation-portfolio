@@ -112,8 +112,8 @@ def main():
     if args.set == "test":
         if args.limit:
             sys.exit("--limit is not allowed on the test set.")
-        if list(results_dir.glob("predictions_*_test_*.csv")):
-            sys.exit("The test set was already evaluated. Refusing to run it again.")
+        if list(results_dir.glob(f"predictions_{args.prompt}_test_*.csv")):
+            sys.exit(f"Prompt {args.prompt} was already evaluated on the test set. Refusing to run it again.")
 
     inv_path = BASE / "dataset" / f"invoices_{args.set}.csv"
     truth_path = BASE / "dataset" / f"truth_{args.set}.csv"

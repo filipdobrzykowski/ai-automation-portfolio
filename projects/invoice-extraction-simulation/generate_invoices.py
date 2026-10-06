@@ -17,7 +17,7 @@ args = parser.parse_args()
 rng = random.Random(2026 if args.test else 42)
 SUFFIX = "test" if args.test else "dev"
 ID_PREFIX = "t" if args.test else "i"
-COMP = (dict(normal=11, hard=6, missing=1, doc_error=3) if args.test
+COMP = (dict(normal=6, hard=11, missing=6, doc_error=3) if args.test
         else dict(normal=35, hard=15, missing=3, doc_error=10))
 
 OUT_DIR = Path(__file__).parent / "dataset"
