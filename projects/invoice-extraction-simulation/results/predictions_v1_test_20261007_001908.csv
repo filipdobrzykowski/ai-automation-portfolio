@@ -1,0 +1,261 @@
+id,route,failures,parse_ok,tokens_in,tokens_out,latency_s,raw,pred_invoice_number,pred_issue_date,pred_seller_name,pred_seller_nip,pred_buyer_nip,pred_net_amount,pred_vat_rate,pred_vat_amount,pred_gross_amount
+t001,auto,,yes,593,136,1.55,"```json
+{
+  ""invoice_number"": ""FV 469/2025"",
+  ""issue_date"": ""2025-04-24"",
+  ""seller_name"": ""Polo Studio Sp. j."",
+  ""seller_nip"": ""8075364555"",
+  ""buyer_nip"": ""7815188446"",
+  ""net_amount"": ""12097.72"",
+  ""vat_rate"": 8,
+  ""vat_amount"": ""967.82"",
+  ""gross_amount"": ""13065.54""
+}
+```",FV 469/2025,2025-04-24,Polo Studio Sp. j.,8075364555,7815188446,12097.72,8,967.82,13065.54
+t002,auto,,yes,608,144,1.45,"```json
+{
+  ""invoice_number"": ""INV-2026-0574"",
+  ""issue_date"": ""2026-08-01"",
+  ""seller_name"": ""Wisła Meble P.P.H.U."",
+  ""seller_nip"": ""1932081960"",
+  ""buyer_nip"": ""8273177842"",
+  ""net_amount"": ""20148.68"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""4634.20"",
+  ""gross_amount"": ""24782.88""
+}
+```",INV-2026-0574,2026-08-01,Wisła Meble P.P.H.U.,1932081960,8273177842,20148.68,23,4634.20,24782.88
+t003,auto,,yes,607,145,1.81,"```json
+{
+  ""invoice_number"": ""FV/2026/04/0380"",
+  ""issue_date"": ""2026-04-23"",
+  ""seller_name"": ""Stalmet Hurt P.P.H.U."",
+  ""seller_nip"": ""8680457173"",
+  ""buyer_nip"": ""9472671479"",
+  ""net_amount"": ""21494.08"",
+  ""vat_rate"": 8,
+  ""vat_amount"": ""1719.53"",
+  ""gross_amount"": ""23213.61""
+}
+```",FV/2026/04/0380,2026-04-23,Stalmet Hurt P.P.H.U.,8680457173,9472671479,21494.08,8,1719.53,23213.61
+t004,auto,,yes,598,139,1.52,"```json
+{
+  ""invoice_number"": ""INV-2026-0314"",
+  ""issue_date"": ""2026-10-13"",
+  ""seller_name"": ""Biały Projekt S.A."",
+  ""seller_nip"": ""6997283798"",
+  ""buyer_nip"": ""3984162298"",
+  ""net_amount"": ""15034.17"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""3457.86"",
+  ""gross_amount"": ""18492.03""
+}
+```",INV-2026-0314,2026-10-13,Biały Projekt S.A.,6997283798,3984162298,15034.17,23,3457.86,18492.03
+t005,review,missing_field,yes,590,134,1.82,"```json
+{
+  ""invoice_number"": null,
+  ""issue_date"": ""2026-04-06"",
+  ""seller_name"": ""Wisła Projekt Sp. z o.o."",
+  ""seller_nip"": ""8799229836"",
+  ""buyer_nip"": ""7957931866"",
+  ""net_amount"": ""13725.22"",
+  ""vat_rate"": 0,
+  ""vat_amount"": ""0.00"",
+  ""gross_amount"": ""13725.22""
+}
+```",,2026-04-06,Wisła Projekt Sp. z o.o.,8799229836,7957931866,13725.22,0,0.00,13725.22
+t006,auto,,yes,681,143,1.4,"```json
+{
+  ""invoice_number"": ""2026/02/FV/123"",
+  ""issue_date"": ""2026-02-04"",
+  ""seller_name"": ""Kamienny Serwis S.A."",
+  ""seller_nip"": ""7164252478"",
+  ""buyer_nip"": ""8647258772"",
+  ""net_amount"": ""11492.35"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""2643.24"",
+  ""gross_amount"": ""14135.59""
+}
+```",2026/02/FV/123,2026-02-04,Kamienny Serwis S.A.,7164252478,8647258772,11492.35,23,2643.24,14135.59
+t007,review,missing_field,yes,559,137,1.5,"```json
+{
+  ""invoice_number"": ""FV/2025/06/0989"",
+  ""issue_date"": ""2025-06-25"",
+  ""seller_name"": ""Nova Serwis S.A."",
+  ""seller_nip"": ""6218549143"",
+  ""buyer_nip"": null,
+  ""net_amount"": ""4497.46"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""1034.42"",
+  ""gross_amount"": ""5531.88""
+}
+```",FV/2025/06/0989,2025-06-25,Nova Serwis S.A.,6218549143,,4497.46,23,1034.42,5531.88
+t008,auto,,yes,677,144,1.49,"```json
+{
+  ""invoice_number"": ""FV/2026/12/0203"",
+  ""issue_date"": ""2026-12-04"",
+  ""seller_name"": ""Tęcza Serwis S.A."",
+  ""seller_nip"": ""5645060455"",
+  ""buyer_nip"": ""5146590850"",
+  ""net_amount"": ""16692.85"",
+  ""vat_rate"": 5,
+  ""vat_amount"": ""834.64"",
+  ""gross_amount"": ""17527.49""
+}
+```",FV/2026/12/0203,2026-12-04,Tęcza Serwis S.A.,5645060455,5146590850,16692.85,5,834.64,17527.49
+t009,review,sum_mismatch,yes,598,141,1.41,"```json
+{
+  ""invoice_number"": ""FV 696/2026"",
+  ""issue_date"": ""2026-05-06"",
+  ""seller_name"": ""Polo Hurt P.P.H.U."",
+  ""seller_nip"": ""6291280845"",
+  ""buyer_nip"": ""6850037033"",
+  ""net_amount"": ""17577.14"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""4042.74"",
+  ""gross_amount"": ""21658.36""
+}
+```",FV 696/2026,2026-05-06,Polo Hurt P.P.H.U.,6291280845,6850037033,17577.14,23,4042.74,21658.36
+t010,auto,,yes,602,141,1.45,"```json
+{
+  ""invoice_number"": ""INV-2025-0046"",
+  ""issue_date"": ""2025-06-07"",
+  ""seller_name"": ""Biały Logistyka S.A."",
+  ""seller_nip"": ""6860214583"",
+  ""buyer_nip"": ""5210839496"",
+  ""net_amount"": ""21336.36"",
+  ""vat_rate"": 5,
+  ""vat_amount"": ""1066.82"",
+  ""gross_amount"": ""22403.18""
+}
+```",INV-2025-0046,2025-06-07,Biały Logistyka S.A.,6860214583,5210839496,21336.36,5,1066.82,22403.18
+t011,auto,,yes,599,146,1.5,"```json
+{
+  ""invoice_number"": ""FV/2026/01/0684"",
+  ""issue_date"": ""2026-01-01"",
+  ""seller_name"": ""Kamienny Druk Sp. z o.o."",
+  ""seller_nip"": ""4097658285"",
+  ""buyer_nip"": ""1258220180"",
+  ""net_amount"": ""5670.56"",
+  ""vat_rate"": 0,
+  ""vat_amount"": ""0.00"",
+  ""gross_amount"": ""5670.56""
+}
+```",FV/2026/01/0684,2026-01-01,Kamienny Druk Sp. z o.o.,4097658285,1258220180,5670.56,0,0.00,5670.56
+t012,review,missing_field,yes,658,139,1.29,"```json
+{
+  ""invoice_number"": ""2026/05/FV/340"",
+  ""issue_date"": ""2026-05-01"",
+  ""seller_name"": ""Polo Hurt P.P.H.U."",
+  ""seller_nip"": ""9357951117"",
+  ""buyer_nip"": ""8443256889"",
+  ""net_amount"": ""20969.06"",
+  ""vat_rate"": 23,
+  ""vat_amount"": null,
+  ""gross_amount"": ""25791.94""
+}
+```",2026/05/FV/340,2026-05-01,Polo Hurt P.P.H.U.,9357951117,8443256889,20969.06,23,,25791.94
+t013,auto,,yes,596,138,1.45,"```json
+{
+  ""invoice_number"": ""FV 742/2026"",
+  ""issue_date"": ""2026-07-29"",
+  ""seller_name"": ""Nova Meble Sp. j."",
+  ""seller_nip"": ""8660856510"",
+  ""buyer_nip"": ""8883655062"",
+  ""net_amount"": ""5218.90"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""1200.35"",
+  ""gross_amount"": ""6419.25""
+}
+```",FV 742/2026,2026-07-29,Nova Meble Sp. j.,8660856510,8883655062,5218.90,23,1200.35,6419.25
+t014,review,missing_field,yes,558,136,1.39,"```json
+{
+  ""invoice_number"": ""FV 729/2026"",
+  ""issue_date"": ""2026-06-12"",
+  ""seller_name"": ""Zielony Handel Sp. j."",
+  ""seller_nip"": ""6183801253"",
+  ""buyer_nip"": ""4739241961"",
+  ""net_amount"": ""11664.42"",
+  ""vat_rate"": 23,
+  ""vat_amount"": null,
+  ""gross_amount"": ""14347.24""
+}
+```",FV 729/2026,2026-06-12,Zielony Handel Sp. j.,6183801253,4739241961,11664.42,23,,14347.24
+t015,review,missing_field,yes,665,141,1.47,"```json
+{
+  ""invoice_number"": ""FV/2026/10/0495"",
+  ""issue_date"": ""2026-10-22"",
+  ""seller_name"": ""Kamienny Logistyka Sp. j."",
+  ""seller_nip"": ""8547354861"",
+  ""buyer_nip"": null,
+  ""net_amount"": ""20602.28"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""4738.52"",
+  ""gross_amount"": ""25340.80""
+}
+```",FV/2026/10/0495,2026-10-22,Kamienny Logistyka Sp. j.,8547354861,,20602.28,23,4738.52,25340.80
+t016,review,vat_mismatch,yes,604,142,1.73,"```json
+{
+  ""invoice_number"": ""FV 770/2026"",
+  ""issue_date"": ""2026-09-14"",
+  ""seller_name"": ""Wisła Projekt P.P.H.U."",
+  ""seller_nip"": ""3229004428"",
+  ""buyer_nip"": ""3485272206"",
+  ""net_amount"": ""23173.56"",
+  ""vat_rate"": 8,
+  ""vat_amount"": ""1882.24"",
+  ""gross_amount"": ""25055.80""
+}
+```",FV 770/2026,2026-09-14,Wisła Projekt P.P.H.U.,3229004428,3485272206,23173.56,8,1882.24,25055.80
+t017,review,nip_checksum,yes,600,144,1.39,"```json
+{
+  ""invoice_number"": ""INV-2025-0645"",
+  ""issue_date"": ""2025-02-11"",
+  ""seller_name"": ""Polo Logistyka P.P.H.U."",
+  ""seller_nip"": ""2594502833"",
+  ""buyer_nip"": ""6286675340"",
+  ""net_amount"": ""19798.34"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""4553.62"",
+  ""gross_amount"": ""24351.96""
+}
+```",INV-2025-0645,2025-02-11,Polo Logistyka P.P.H.U.,2594502833,6286675340,19798.34,23,4553.62,24351.96
+t018,review,missing_field,yes,583,131,1.3,"```json
+{
+  ""invoice_number"": null,
+  ""issue_date"": ""2025-05-29"",
+  ""seller_name"": ""Polo Hurt Sp. j."",
+  ""seller_nip"": ""6607874570"",
+  ""buyer_nip"": ""3128357697"",
+  ""net_amount"": ""11321.41"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""2603.92"",
+  ""gross_amount"": ""13925.33""
+}
+```",,2025-05-29,Polo Hurt Sp. j.,6607874570,3128357697,11321.41,23,2603.92,13925.33
+t019,auto,,yes,653,149,1.47,"```json
+{
+  ""invoice_number"": ""FV/2026/06/0996"",
+  ""issue_date"": ""2026-06-25"",
+  ""seller_name"": ""Tęcza Serwis Sp. z o.o."",
+  ""seller_nip"": ""7979780251"",
+  ""buyer_nip"": ""3016128402"",
+  ""net_amount"": ""19026.63"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""4376.12"",
+  ""gross_amount"": ""23402.75""
+}
+```",FV/2026/06/0996,2026-06-25,Tęcza Serwis Sp. z o.o.,7979780251,3016128402,19026.63,23,4376.12,23402.75
+t020,auto,,yes,607,144,1.54,"```json
+{
+  ""invoice_number"": ""FV 568/2026"",
+  ""issue_date"": ""2026-06-27"",
+  ""seller_name"": ""Mazurska Budowa Sp. z o.o."",
+  ""seller_nip"": ""5385469057"",
+  ""buyer_nip"": ""9281953913"",
+  ""net_amount"": ""19571.18"",
+  ""vat_rate"": 8,
+  ""vat_amount"": ""1565.69"",
+  ""gross_amount"": ""21136.87""
+}
+```",FV 568/2026,2026-06-27,Mazurska Budowa Sp. z o.o.,5385469057,9281953913,19571.18,8,1565.69,21136.87
