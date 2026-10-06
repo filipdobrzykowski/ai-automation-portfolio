@@ -1,5 +1,53 @@
 # Email Triage (Simulated Scenario)
 
+
+## What it does
+For each customer email the model returns a category, a priority, the order
+number (if present) and a one-sentence summary. Definitions and priority
+rules live in `scenario.md` and are inserted into the prompt unchanged, so
+the model and the human labeller work from the same specification.
+
+## Method
+1. 50 synthetic emails generated with an LLM from a fixed plan
+   (6 categories, 10 deliberately hard cases).
+2. Labelled by hand, before any model output was seen.
+3. Baseline v1 evaluated once; errors analysed manually (`error_analysis.md`).
+4. Rules clarified (v2). Evaluated on a separate set of 30 emails, labelled
+   and committed to git before the evaluation was run.
+
+## Repository
+| File | Purpose |
+|---|---|
+| `scenario.md` / `scenario_v1.md` | Categories, priority rules (v2 and frozen v1) |
+| `dataset/` | Emails and labels (all synthetic) |
+| `generate_dataset.py` | Dataset generator |
+| `evaluate.py` | Classification and metrics |
+| `rescore.py` | Re-scoring with documented label corrections |
+| `error_analysis.md`, `label_corrections.md` | Analysis of v1 errors |
+| `results/` | Raw outputs of every run |
+
+## How to run
+```bash
+pip install -r requirements.txt
+cp .env.example .env        # add your Anthropic API key
+python3 evaluate.py
+```
+
+## Limitations
+- Synthetic emails written by an LLM are cleaner than real ones.
+- Small samples (50 and 30): one email is 2 and 3.3 percentage points.
+- One person labelled the data; no inter-annotator agreement measured.
+- Priority rules were refined after seeing v1 errors, so v2 results are only
+  meaningful on the fresh set.
+- Cost estimate uses assumed token prices.
+- No real customer data, attachments or email threads.
+
+## Next steps
+- Email trigger (n8n) instead of a CSV file.
+- Escalation rule for sensitive cases (e.g. a suspected data leak).
+- Test on a small set of anonymised real emails with a business partner.
+
+
 LLM-based triage of customer emails for a fictional online bike shop.
 **Simulated scenario with synthetic data.** See `scenario.md`.
 
@@ -31,8 +79,16 @@ Each correction fixes a label that contradicted a rule I had written in
 `scenario.md`. All six improve the score, so I treat the original result as
 the headline and list every change in `label_corrections.md`.
 
-### v2 rules on a fresh test set (30 emails)
-To be added after evaluation.
+### v1 vs v2 rules on a fresh test set (30 emails)
+
+| Prompt | Category | Priority |
+|---|---|---|
+| v1 (original rules) | 26/30 | 20/30 |
+| v2 (clarified rules) | 28/30 | 19/30 |
+
+Labels for this set follow the v2 rules, so v1 is disadvantaged by design.
+The comparison shows how well each prompt conveys the v2 specification,
+not that v2 is better in general. Each prompt was run once.
 
 ### Notes
 - With n = 50, one email is 2 percentage points. Small differences are noise.
