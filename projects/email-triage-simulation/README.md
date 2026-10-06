@@ -64,6 +64,8 @@ being tested on a separate, fresh set of 30 emails.
 
 ### Baseline v1: 50 emails, original labels (headline result)
 
+![Baseline v1 output](screenshots/results_v1.png)
+
 | Metric | Result |
 |---|---|
 | Category accuracy | 92% (46/50) |
