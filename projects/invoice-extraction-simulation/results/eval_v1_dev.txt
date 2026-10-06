@@ -1,0 +1,36 @@
+=== EVALUATION ===
+Predictions: predictions_v1_dev_20261006_235930.csv | prompt: v1 | set: dev | n = 60
+
+Field accuracy:
+  invoice_number  59/60 (98.3%)
+  issue_date      60/60 (100.0%)
+  seller_name     60/60 (100.0%)
+  seller_nip      60/60 (100.0%)
+  buyer_nip       60/60 (100.0%)
+  net_amount      60/60 (100.0%)
+  vat_rate        60/60 (100.0%)
+  vat_amount      59/60 (98.3%)
+  gross_amount    60/60 (100.0%)
+
+Invoice accuracy (all 9 fields correct): 58/60 (96.7%)
+Route accuracy: 58/60 (96.7%)
+Unparseable responses: 0
+
+Invoices with at least one wrong field: 2
+  caught by checks (routed review): 0
+  SILENT ERRORS (routed auto): 2/60 (3.3%)
+Needless reviews (all fields correct, document correct, routed review): 0/47
+Documents with an injected error or missing field routed review: 11/13
+
+By kind:
+  hard       n=15 invoice accuracy 86.7%, route accuracy 86.7%, silent errors 2
+  normal     n=35 invoice accuracy 100.0%, route accuracy 100.0%, silent errors 0
+  doc_error  n=10 invoice accuracy 100.0%, route accuracy 100.0%, silent errors 0
+
+Details (invoices with a wrong field or a wrong route):
+  i016 [hard/missing:invoice_number] route auto (expected review), checks: -
+      invoice_number: predicted 'ZK/2025/0246' | printed 'null'
+  i035 [hard/missing:vat_amount] route auto (expected review), checks: -
+      vat_amount: predicted '194.83' | printed 'null'
+
+Saved: eval_v1_dev_20261007_000215.json
