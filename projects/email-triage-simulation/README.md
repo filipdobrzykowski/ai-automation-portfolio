@@ -41,6 +41,11 @@ python3 evaluate.py
   meaningful on the fresh set.
 - Cost estimate uses assumed token prices.
 - No real customer data, attachments or email threads.
+- Only 2 (first set) and 1 (fresh set) emails are labelled `partnership_spam`:
+  the generator produced mostly customers asking about spam, so detection of
+  real spam senders is effectively untested.
+- The fresh set was also inspected after evaluation, so any further prompt
+  change needs another fresh set.
 
 ## Next steps
 - Email trigger (n8n) instead of a CSV file.
@@ -81,14 +86,26 @@ the headline and list every change in `label_corrections.md`.
 
 ### v1 vs v2 rules on a fresh test set (30 emails)
 
-| Prompt | Category | Priority |
-|---|---|---|
-| v1 (original rules) | 26/30 | 20/30 |
-| v2 (clarified rules) | 28/30 | 19/30 |
+| Prompt | Category | Priority | Order number |
+|---|---|---|---|
+| v1 (original rules) | 26/30 (86.7%) | 20/30 (66.7%) | 29/30 |
+| v2 (clarified rules) | 28/30 (93.3%) | 19/30 (63.3%) | 28/30 |
 
 Labels for this set follow the v2 rules, so v1 is disadvantaged by design.
-The comparison shows how well each prompt conveys the v2 specification,
-not that v2 is better in general. Each prompt was run once.
+Each prompt was run once.
+
+**Findings**
+- Category: the v2 rule on spam senders fixed 2 of 3 false `partnership_spam`
+  predictions and broke none. This is 2 emails out of 30, so it is
+  suggestive, not conclusive.
+- Priority: no improvement (20/30 vs 19/30). 9 of 10 priority errors from v1
+  also occur in v2, so the errors are systematic rather than random.
+- The model over-rates priority in 9 of 11 priority errors (cautious
+  direction for triage).
+- Order number accuracy moved from 29/30 to 28/30 although no rule concerns
+  it, which gives a rough sense of run-to-run noise.
+- Cost per 1,000 emails rose from about $1.02 to $1.15 (assumed prices) because
+  the v2 prompt is longer.
 
 ### Notes
 - With n = 50, one email is 2 percentage points. Small differences are noise.
