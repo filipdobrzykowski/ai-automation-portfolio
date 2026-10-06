@@ -7,7 +7,8 @@ Each project follows the same format: problem, solution, result.
 
 | Project | Stack | Status |
 |---|---|---|
-| Support ticket classifier | n8n, LLM API, Google Sheets | In progress |
+| [Support ticket classifier](projects/support-ticket-classifier) | n8n, Claude API, Google Sheets | Done (v1), working demo |
+| [Email triage simulation](projects/email-triage-simulation) | Python, Claude API | Evaluated on hand-labelled synthetic emails |
 
 ## About
 
