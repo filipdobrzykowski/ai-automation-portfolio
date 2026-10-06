@@ -1,0 +1,27 @@
+{
+  "predictions": "predictions_v2_dev_20261007_002938.csv",
+  "prompt": "v2",
+  "set": "dev",
+  "n": 60,
+  "field_correct": {
+    "invoice_number": 60,
+    "issue_date": 60,
+    "seller_name": 60,
+    "seller_nip": 60,
+    "buyer_nip": 60,
+    "net_amount": 60,
+    "vat_rate": 60,
+    "vat_amount": 60,
+    "gross_amount": 60
+  },
+  "invoice_correct": 60,
+  "route_correct": 60,
+  "wrong_field_invoices": 0,
+  "caught": 0,
+  "silent_errors": 0,
+  "needless_reviews": 0,
+  "clean_documents_all_correct": 47,
+  "bad_documents": 13,
+  "bad_documents_caught": 13,
+  "unparseable": 0
+}
