@@ -1,0 +1,888 @@
+id,text
+i001,"Faktura VAT nr FV 651/2026
+Data wystawienia: 2026-10-06
+
+Sprzedawca:
+Alfa Hurt S.A.
+ul. Polna 119, 81-704 Wrocław
+NIP: PL2034131644
+
+Nabywca:
+Błękitny Technika P.P.H.U.
+ul. Krótka 88, 41-863 Lublin
+NIP: PL8525534194
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+15 218,07 zł | 23% | 3 500,16 zł | 18 718,23 zł
+
+Zamówienie: ZK/2025/0936
+Termin płatności: 2026-11-05
+Nr klienta: 2351531223
+IBAN: PL93 8179 6482 7517 2340 4339 2287
+tel. 626 862 674"
+i002,"Numer faktury: INV-2026-0611
+Data wystawienia: 06.07.2026
+Sprzedawca: Alfa Meble Sp. z o.o., ul. Leśna 114, 68-768 Gdańsk
+NIP (sprzedawca): 7965328713
+Nabywca: Wisła Hurt Sp. z o.o., ul. Dworcowa 83, 43-114 Gdańsk
+NIP (nabywca): 1122691661
+Wartość netto: 11 070,18 zł
+Stawka VAT: 8%
+Kwota VAT: 885,61 zł
+Wartość brutto: 11 955,79 zł"
+i003,"Faktura VAT nr 2025/09/FV/900
+Data wystawienia: 27.09.2025
+
+Sprzedawca:
+Stalmet Handel S.A.
+ul. Lipowa 94, 62-835 Warszawa
+NIP: 9148932529
+
+Nabywca:
+Polo Pracownia Sp. z o.o.
+ul. Dworcowa 69, 98-128 Kraków
+NIP: 9809570158
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+21046,10 zł | 8% | 1683,69 zł | 22729,79 zł"
+i004,"Numer faktury: INV-2026-0686
+Data wystawienia: 08.12.2026
+Sprzedawca: Stalmet Logistyka S.A., ul. Krótka 101, 60-826 Poznań
+NIP (sprzedawca): 609-839-30-16
+Nabywca: Tęcza Pracownia P.P.H.U., ul. Krótka 13, 12-674 Poznań
+NIP (nabywca): 131-051-83-41
+Wartość netto: 8486,88 zł
+Stawka VAT: 8%
+Kwota VAT: 678,95 zł
+Wartość brutto: 9165,83 zł"
+i005,"Numer faktury: FV/2025/02/0668
+Data wystawienia: 25.02.2025
+Sprzedawca: Zielony Transport S.A., ul. Krótka 111, 51-924 Warszawa
+NIP (sprzedawca): 613-338-72-60
+Nabywca: Biały Technika P.P.H.U., ul. Krótka 49, 00-399 Gdańsk
+NIP (nabywca): 347-317-81-05
+Wartość netto: 4177,94 zł
+Stawka VAT: 23%
+Kwota VAT: 960,93 zł
+Wartość brutto: 5138,87 zł
+Zamówienie: ZK/2026/0223
+Termin płatności: 04.03.2025
+Nr klienta: 3328710672
+IBAN: PL50 0936 0821 9571 7811 8238 8701
+tel. 580 158 620"
+i006,"Faktura VAT nr 2025/03/FV/245
+Data wystawienia: 2025-03-24
+
+Sprzedawca:
+Biały Projekt Sp. j.
+ul. Lipowa 59, 79-576 Warszawa
+NIP: 2361939900
+
+Nabywca:
+Mazurska Druk Sp. z o.o.
+ul. Lipowa 69, 27-518 Gdańsk
+NIP: 2699854359
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+7844,06 zł | 23% | 1804,13 zł | 9648,19 zł
+
+Zamówienie: ZK/2025/0449
+Termin płatności: 2025-04-23
+Nr klienta: 8316648259
+IBAN: PL88 8666 0128 9086 4905 1697 2200
+tel. 635 218 209"
+i007,"Faktura VAT nr INV-2026-0565
+Data wystawienia: 2026-07-21
+
+Sprzedawca:
+Alfa Handel Sp. z o.o.
+ul. Ogrodowa 5, 47-596 Wrocław
+NIP: 4534874013
+
+Nabywca:
+Zielony Hurt S.A.
+ul. Krótka 56, 16-042 Gdańsk
+NIP: 7400524271
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+6569,95 zł | 23% | 1511,09 zł | 8111,91 zł"
+i008,"Numer faktury: FV 228/2025
+Data wystawienia: 2025-12-29
+Sprzedawca: Kamienny Technika Sp. j., ul. Lipowa 85, 24-408 Gdańsk
+NIP (sprzedawca): 7923226020
+Nabywca: Orion Transport S.A., ul. Polna 111, 08-990 Lublin
+NIP (nabywca): 6634216075
+Wartość netto: 23533,21 zł
+Stawka VAT: 5%
+Kwota VAT: 1176,66 zł
+Wartość brutto: 24709,87 zł"
+i009,"Numer faktury: FV 533/2025
+Data wystawienia: 2025-09-25
+Sprzedawca: Lipowa Budowa Sp. z o.o., ul. Leśna 109, 15-737 Gdańsk
+NIP (sprzedawca): 5019655698
+Nabywca: Wisła Druk Sp. j., ul. Ogrodowa 40, 85-418 Gdańsk
+NIP (nabywca): 9169340604
+Wartość netto: 7539,67 zł
+Stawka VAT: 23%
+Kwota VAT: 1734,12 zł
+Wartość brutto: 9273,79 zł
+Zamówienie: ZK/2026/0694
+Termin płatności: 2025-10-25
+Nr klienta: 4877520294
+IBAN: PL88 9324 4930 6653 8977 0006 4978
+tel. 646 315 540"
+i010,"Numer faktury: INV-2026-0824
+Data wystawienia: 17.08.2026
+Sprzedawca: Nova Logistyka S.A., ul. Krótka 103, 59-683 Wrocław
+NIP (sprzedawca): 6134332002
+Nabywca: Polo Serwis P.P.H.U., ul. Ogrodowa 77, 40-972 Lublin
+NIP (nabywca): 8632016324
+Wartość netto: 13566,11 zł
+Stawka VAT: 23%
+Kwota VAT: 3120,21 zł
+Wartość brutto: 16686,32 zł"
+i011,"Numer faktury: FV/2026/05/0426
+Data wystawienia: 2026-05-02
+Sprzedawca: Stalmet Budowa P.P.H.U., ul. Dworcowa 113, 97-589 Poznań
+NIP (sprzedawca): 445-581-22-36
+Nabywca: Polo Pracownia Sp. z o.o., ul. Słoneczna 1, 45-305 Lublin
+NIP (nabywca): 723-166-58-78
+Wartość netto: 18927,29 zł
+Stawka VAT: 23%
+Kwota VAT: 4353,28 zł
+Wartość brutto: 23280,57 zł
+Zamówienie: ZK/2026/0498
+Termin płatności: 2026-05-09
+Nr klienta: 6965096268
+IBAN: PL95 6624 2704 7657 2091 8751 0441
+tel. 701 706 677"
+i012,"Numer faktury: FV/2026/11/0020
+Data wystawienia: 2026-11-10
+Sprzedawca: Lipowa Transport Sp. z o.o., ul. Dworcowa 4, 31-204 Lublin
+NIP (sprzedawca): 727-204-65-34
+Nabywca: Brzoza Studio Sp. z o.o., ul. Lipowa 80, 19-244 Kraków
+NIP (nabywca): 855-646-41-70
+Wartość netto: PLN 2,136.74
+Stawka VAT: 23%
+Kwota VAT: PLN 491.45
+Wartość brutto: PLN 2,628.19"
+i013,"Numer faktury: FV/2025/06/0802
+Data wystawienia: 2025-06-21
+Sprzedawca: Lipowa Logistyka P.P.H.U., ul. Ogrodowa 83, 43-012 Lublin
+NIP (sprzedawca): 341-904-96-64
+Nabywca: Wisła Druk Sp. z o.o., ul. Słoneczna 106, 62-108 Poznań
+NIP (nabywca): 419-314-91-90
+Wartość netto: 4853,85 zł
+Stawka VAT: 8%
+Kwota VAT: 388,31 zł
+Wartość brutto: 5242,16 zł
+Zamówienie: ZK/2026/0631
+Termin płatności: 2025-07-21
+Nr klienta: 8622026979
+IBAN: PL69 7136 9707 4397 5280 4022 1419
+tel. 642 561 349"
+i014,"Faktura VAT nr FV 88/2026
+Data wystawienia: 2026/04/21
+
+Sprzedawca:
+Tęcza Budowa P.P.H.U.
+ul. Leśna 92, 62-458 Lublin
+NIP: 750-752-73-55
+
+Nabywca:
+Alfa Transport P.P.H.U.
+ul. Lipowa 12, 37-226 Poznań
+NIP: 554-948-08-35
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+23951,22 zł | 23% | 5508,78 zł | 29460,00 zł"
+i015,"Faktura VAT nr FV/2026/03/0290
+Data wystawienia: 2026-03-12
+
+Sprzedawca:
+Kamienny Transport Sp. j.
+ul. Polna 2, 90-546 Kraków
+NIP: 8444313514
+
+Nabywca:
+Stalmet Druk S.A.
+ul. Polna 6, 06-566 Gdańsk
+NIP: 9233749899
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+23134,96 zł | 23% | 5321,04 zł | 28456,00 zł"
+i016,"Data wystawienia: 2026-04-26
+Sprzedawca: Delta Pracownia S.A., ul. Słoneczna 117, 56-304 Lublin
+NIP (sprzedawca): 3047116713
+Nabywca: Brzoza Logistyka P.P.H.U., ul. Ogrodowa 55, 39-582 Wrocław
+NIP (nabywca): 1229413189
+Wartość netto: 20 128,72 zł
+Stawka VAT: 23%
+Kwota VAT: 4 629,61 zł
+Wartość brutto: 24 758,33 zł
+Zamówienie: ZK/2025/0246
+Termin płatności: 2026-05-03
+Nr klienta: 3370788647
+IBAN: PL30 0043 6693 7381 9729 7699 4771
+tel. 516 337 395"
+i017,"Numer faktury: 2026/12/FV/767
+Data wystawienia: 2026-12-25
+Sprzedawca: Mazurska Serwis P.P.H.U., ul. Polna 65, 69-505 Poznań
+NIP (sprzedawca): 8134936184
+Nabywca: Tęcza Meble P.P.H.U., ul. Lipowa 77, 05-910 Poznań
+NIP (nabywca): 4242102491
+Wartość netto: 11908,06 zł
+Stawka VAT: 8%
+Kwota VAT: 952,64 zł
+Wartość brutto: 12860,70 zł
+Zamówienie: ZK/2025/0784
+Termin płatności: 2027-01-24
+Nr klienta: 8822944679
+IBAN: PL83 0659 2870 7708 8502 7245 4557
+tel. 592 699 546"
+i018,"Faktura VAT nr FV/2026/10/0332
+Data wystawienia: 13.10.2026
+
+Sprzedawca:
+Brzoza Budowa Sp. z o.o.
+ul. Słoneczna 7, 24-530 Gdańsk
+NIP: 8565512566
+
+Nabywca:
+Wisła Logistyka P.P.H.U.
+ul. Ogrodowa 97, 63-640 Poznań
+NIP: 8468071548
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+20 674,47 zł | 0% | 0,00 zł | 20 674,47 zł"
+i019,"Numer faktury: INV-2026-0855
+Data wystawienia: 25.03.2026
+Sprzedawca: Mazurska Transport P.P.H.U., ul. Krótka 118, 76-520 Łódź
+NIP (sprzedawca): 424-808-61-32
+Nabywca: Alfa Projekt P.P.H.U., ul. Krótka 111, 08-282 Lublin
+NIP (nabywca): 271-274-84-66
+Wartość netto: 20 380,28 zł
+Stawka VAT: 23%
+Kwota VAT: 4 687,46 zł
+Wartość brutto: 25 067,74 zł"
+i020,"Numer faktury: INV-2026-0763
+Data wystawienia: 17.08.2026
+Sprzedawca: Tęcza Budowa P.P.H.U., ul. Słoneczna 5, 16-514 Wrocław
+NIP (sprzedawca): 8875588670
+Nabywca: Wisła Studio S.A., ul. Polna 112, 12-895 Lublin
+NIP (nabywca): 6339636059
+Wartość netto: 20 587,00 zł
+Stawka VAT: 5%
+Kwota VAT: 1 029,35 zł
+Wartość brutto: 21 616,35 zł"
+i021,"Faktura VAT nr FV/2026/02/0445
+Data wystawienia: 2026-02-24
+
+Sprzedawca:
+Brzoza Studio Sp. z o.o.
+ul. Lipowa 6, 41-815 Warszawa
+NIP: 5596158650
+
+Nabywca:
+Mazurska Projekt Sp. j.
+ul. Polna 46, 47-441 Kraków
+NIP: 8809134311
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+6524,37 zł | 23% | 1500,61 zł | 8024,98 zł
+
+Zamówienie: ZK/2026/0635
+Termin płatności: 2026-03-26
+Nr klienta: 6329323383
+IBAN: PL84 2344 3804 7555 4161 7529 4183
+tel. 504 923 576"
+i022,"Numer faktury: 2025/10/FV/717
+Data wystawienia: 2025-10-22
+Sprzedawca: Nova Studio P.P.H.U., ul. Ogrodowa 96, 63-852 Gdańsk
+NIP (sprzedawca): 859-464-74-35
+Nabywca: Orion Handel Sp. z o.o., ul. Dworcowa 103, 29-621 Lublin
+NIP (nabywca): 771-369-59-49
+Wartość netto: 22 975,98 zł
+Stawka VAT: 23%
+Kwota VAT: 5 284,48 zł
+Wartość brutto: 28 260,46 zł"
+i023,"Numer faktury: 2026/11/FV/936
+Data wystawienia: 07.11.2026
+Sprzedawca: Kamienny Projekt Sp. j., ul. Leśna 112, 43-823 Warszawa
+NIP (sprzedawca): 1470952141
+Nabywca: Polo Technika Sp. j., ul. Słoneczna 10, 18-772 Kraków
+NIP (nabywca): 6623285880
+Wartość netto: 5 786,93 zł
+Stawka VAT: 23%
+Kwota VAT: 1 330,99 zł
+Wartość brutto: 7 151,47 zł
+Zamówienie: ZK/2025/0466
+Termin płatności: 21.11.2026
+Nr klienta: 8182649048
+IBAN: PL84 6242 6086 1775 3830 7724 0410
+tel. 787 435 724"
+i024,"Faktura VAT nr FV 430/2025
+Data wystawienia: 15.08.2025
+
+Sprzedawca:
+Polo Budowa Sp. z o.o.
+ul. Polna 5, 88-379 Kraków
+NIP: 8461200474
+
+Nabywca:
+Kamienny Technika P.P.H.U.
+ul. Słoneczna 57, 30-875 Gdańsk
+NIP: 2138267587
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+2701,51 zł | 23% | 621,35 zł | 3322,86 zł
+
+Zamówienie: ZK/2025/0992
+Termin płatności: 22.08.2025
+Nr klienta: 8834841054
+IBAN: PL21 3475 9783 0349 0828 5464 3990
+tel. 564 905 678"
+i025,"Dzień dobry,
+
+w załączeniu przesyłam fakturę INV-2025-0130 z dnia 2025-07-30 wystawioną przez Alfa Serwis Sp. z o.o. (NIP 9393352900) dla firmy Mazurska Technika Sp. j..
+NIP nabywcy: 1539502409.
+Wartość netto wynosi 2927,71 zł, stawka VAT 8%, kwota VAT 234,22 zł, do zapłaty brutto 3161,93 zł.
+
+Pozdrawiam,
+Ewa"
+i026,"Faktura VAT nr FV/2026/03/0441
+Data wystawienia: 13.03.2026
+
+Sprzedawca:
+Brzoza Hurt Sp. z o.o.
+ul. Słoneczna 58, 29-423 Gdańsk
+NIP: 811-592-12-47
+
+Nabywca:
+Kamienny Studio S.A.
+ul. Dworcowa 59, 51-425 Łódź
+NIP: 956-984-78-96
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+4578,24 zł | 23% | 1053,00 zł | 5631,24 zł"
+i027,"Faktura VAT nr INV-2026-0895
+Data wystawienia: 19.01.2026
+
+Sprzedawca:
+Kamienny Hurt Sp. z o.o.
+ul. Polna 14, 73-519 Kraków
+NIP: 8111161526
+
+Nabywca:
+Orion Pracownia Sp. j.
+ul. Krótka 85, 61-229 Lublin
+NIP: 9098851650
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+6452,14 zł | 23% | 1483,99 zł | 7936,13 zł"
+i028,"Faktura VAT nr FV 72/2026
+Data wystawienia: 2026-08-11
+
+Sprzedawca:
+Tęcza Studio Sp. z o.o.
+ul. Słoneczna 54, 58-349 Kraków
+NIP: 9998094026
+
+Nabywca:
+Zielony Hurt S.A.
+ul. Polna 40, 92-332 Lublin
+NIP: 5455022960
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+10485.79 PLN | 8% | 838.86 PLN | 11324.65 PLN"
+i029,"Numer faktury: INV-2026-0226
+Data wystawienia: 2026-11-22
+Sprzedawca: Delta Handel Sp. z o.o., ul. Dworcowa 18, 97-261 Gdańsk
+NIP (sprzedawca): 779-764-38-15
+Nabywca: Stalmet Meble S.A., ul. Polna 16, 00-509 Łódź
+NIP (nabywca): 661-497-84-02
+Wartość netto: 3 471,77 zł
+Stawka VAT: 23%
+Kwota VAT: 798,51 zł
+Wartość brutto: 4 270,28 zł"
+i030,"Numer faktury: INV-2025-0176
+Data wystawienia: 2025-08-24
+Sprzedawca: Kamienny Hurt Sp. j., ul. Krótka 56, 75-410 Wrocław
+NIP (sprzedawca): 6160607151
+Nabywca: Zielony Budowa Sp. z o.o., ul. Lipowa 51, 39-763 Gdańsk
+NIP (nabywca): 7966416052
+Wartość netto: 21 032,52 zł
+Stawka VAT: 23%
+Kwota VAT: 4 847,05 zł
+Wartość brutto: 25 879,57 zł"
+i031,"Faktura VAT nr 2025/07/FV/331
+Data wystawienia: 18.07.2025
+
+Sprzedawca:
+Błękitny Technika Sp. z o.o.
+ul. Dworcowa 36, 75-057 Gdańsk
+NIP: 331-243-29-23
+
+Nabywca:
+Mazurska Technika Sp. j.
+ul. Ogrodowa 10, 39-472 Poznań
+NIP: 227-799-79-93
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+14 703,86 zł | 23% | 3 381,89 zł | 18 085,75 zł
+
+Zamówienie: ZK/2025/0630
+Termin płatności: 17.08.2025
+Nr klienta: 7472806994
+IBAN: PL69 9508 9081 0672 7368 9366 3084
+tel. 664 719 587"
+i032,"Faktura VAT nr 2026/05/FV/419
+Data wystawienia: 2026-05-29
+
+Sprzedawca:
+Wisła Pracownia Sp. z o.o.
+ul. Lipowa 43, 12-571 Łódź
+NIP: 8151820372
+
+Nabywca:
+Brzoza Studio Sp. j.
+ul. Słoneczna 37, 32-741 Lublin
+NIP: 8889255464
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+6377,57 zł | 0% | 0,00 zł | 6377,57 zł"
+i033,"Invoice No. FV 197/2025
+Issue date: 2025-11-14
+
+Seller:
+Błękitny Projekt Sp. z o.o.
+ul. Leśna 44, 98-632 Kraków
+VAT ID: 248-652-81-62
+
+Buyer:
+Orion Serwis Sp. z o.o.
+ul. Ogrodowa 49, 19-166 Kraków
+VAT ID: 950-542-35-75
+
+Net amount | VAT rate | VAT amount | Gross amount
+PLN 16,489.90 | 23% | PLN 3,792.68 | PLN 20,282.58
+
+Order: ZK/2026/0626
+Due date: 2025-11-28
+Customer no.: 8661364201
+IBAN: PL39 8749 3918 5070 7684 3178 6026
+tel. 792 551 572"
+i034,"Faktura VAT nr FV 928/2025
+Data wystawienia: 2025-10-16
+
+Sprzedawca:
+Kamienny Budowa Sp. z o.o.
+ul. Polna 120, 03-424 Warszawa
+NIP: 7239240753
+
+Nabywca:
+Polo Transport P.P.H.U.
+ul. Słoneczna 65, 47-241 Poznań
+NIP: 9181412477
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+16066,89 zł | 23% | 3695,38 zł | 19762,27 zł
+
+Zamówienie: ZK/2025/0860
+Termin płatności: 2025-11-15
+Nr klienta: 8086527181
+IBAN: PL28 2254 0627 4700 7740 2273 7685
+tel. 729 730 105"
+i035,"Dzień dobry,
+
+w załączeniu przesyłam fakturę FV/2025/03/0612 z dnia 2025-03-23 wystawioną przez Wisła Logistyka S.A. (NIP 3898614345) dla firmy Tęcza Projekt Sp. j..
+NIP nabywcy: 2036971176.
+Wartość netto wynosi 847,08 zł, stawka VAT 23%, do zapłaty brutto 1041,91 zł.
+
+Zamówienie: ZK/2025/0651
+Termin płatności: 2025-04-06
+Nr klienta: 9508499533
+IBAN: PL42 0266 5850 1106 5649 3950 1698
+tel. 797 852 874
+
+Pozdrawiam,
+Michał"
+i036,"Numer faktury: INV-2025-0835
+Data wystawienia: 17.05.2025
+Sprzedawca: Orion Handel S.A., ul. Dworcowa 84, 42-279 Warszawa
+NIP (sprzedawca): 6277221705
+Nabywca: Orion Druk Sp. z o.o., ul. Dworcowa 48, 55-910 Poznań
+NIP (nabywca): 5303054865
+Wartość netto: 1909,57 zł
+Stawka VAT: 23%
+Kwota VAT: 439,20 zł
+Wartość brutto: 2348,77 zł
+Zamówienie: ZK/2026/0377
+Termin płatności: 16.06.2025
+Nr klienta: 9944748312
+IBAN: PL64 1293 7055 9870 2956 8937 4813
+tel. 664 205 181"
+i037,"Faktura VAT nr FV 34/2025
+Data wystawienia: 02.12.2025
+
+Sprzedawca:
+Wisła Technika Sp. j.
+ul. Ogrodowa 18, 67-375 Poznań
+NIP: 727-570-59-60
+
+Nabywca:
+Lipowa Technika Sp. z o.o.
+ul. Polna 84, 35-255 Warszawa
+NIP: 802-135-56-98
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+13.400,03 zł | 23% | 3.082,01 zł | 16.482,04 zł"
+i038,"Numer faktury: 2025/05/FV/298
+Data wystawienia: 2025-05-01
+Sprzedawca: Kamienny Projekt S.A., ul. Lipowa 26, 17-242 Lublin
+NIP (sprzedawca): 8394731214
+Nabywca: Brzoza Druk S.A., ul. Słoneczna 4, 46-567 Wrocław
+NIP (nabywca): 8271551880
+Wartość netto: 11029,70 zł
+Stawka VAT: 8%
+Kwota VAT: 882,38 zł
+Wartość brutto: 11912,08 zł
+Zamówienie: ZK/2026/0735
+Termin płatności: 2025-05-31
+Nr klienta: 3469178881
+IBAN: PL26 5194 1215 7372 7632 8476 5644
+tel. 565 999 948"
+i039,"Faktura VAT nr FV 607/2026
+Data wystawienia: 2026-07-19
+
+Sprzedawca:
+Błękitny Studio Sp. j.
+ul. Dworcowa 111, 03-083 Warszawa
+NIP: 368-018-24-20
+
+Nabywca:
+Kamienny Pracownia Sp. z o.o.
+ul. Leśna 99, 73-271 Łódź
+NIP: 942-498-18-22
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+24703,53 zł | 23% | 5681,81 zł | 30385,34 zł"
+i040,"Numer faktury: 2026/07/FV/883
+Data wystawienia: 2026-11-31
+Sprzedawca: Tęcza Druk P.P.H.U., ul. Polna 31, 59-125 Gdańsk
+NIP (sprzedawca): 573-647-10-23
+Nabywca: Błękitny Druk Sp. z o.o., ul. Słoneczna 32, 18-099 Warszawa
+NIP (nabywca): 867-735-92-59
+Wartość netto: 12 199,70 zł
+Stawka VAT: 23%
+Kwota VAT: 2 805,93 zł
+Wartość brutto: 15 005,63 zł"
+i041,"Faktura VAT nr INV-2025-0507
+Data wystawienia: 17.11.2025
+
+Sprzedawca:
+Orion Logistyka Sp. z o.o.
+ul. Krótka 113, 33-744 Gdańsk
+NIP: 887-747-01-68
+
+Nabywca:
+Kamienny Serwis P.P.H.U.
+ul. Dworcowa 52, 46-046 Poznań
+NIP: 973-395-00-44
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+8 012,21 zł | 8% | 640,98 zł | 8 653,19 zł
+
+Zamówienie: ZK/2026/0783
+Termin płatności: 17.12.2025
+Nr klienta: 1510289448
+IBAN: PL22 6453 6114 5555 9139 5990 2363
+tel. 601 716 621"
+i042,"Faktura VAT nr INV-2026-0345
+Data wystawienia: 16.02.2026
+
+Sprzedawca:
+Tęcza Pracownia Sp. j.
+ul. Polna 87, 14-426 Wrocław
+NIP: 125 787 29 86
+
+Nabywca:
+Mazurska Handel Sp. j.
+ul. Polna 102, 92-893 Łódź
+NIP: 359 526 94 93
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+21024,78 zł | 23% | 4835,70 zł | 25860,48 zł"
+i043,"Numer faktury: FV/2025/06/0894
+Data wystawienia: 2026-09-31
+Sprzedawca: Tęcza Projekt S.A., ul. Ogrodowa 49, 40-979 Kraków
+NIP (sprzedawca): 723-091-30-73
+Nabywca: Alfa Druk P.P.H.U., ul. Słoneczna 117, 68-350 Wrocław
+NIP (nabywca): 662-636-89-74
+Wartość netto: 22 037,89 zł
+Stawka VAT: 23%
+Kwota VAT: 5 068,71 zł
+Wartość brutto: 27 106,60 zł"
+i044,"Faktura VAT nr INV-2025-0355
+Data wystawienia: 2025-08-19
+
+Sprzedawca:
+Wisła Meble P.P.H.U.
+ul. Ogrodowa 90, 34-140 Warszawa
+NIP: 4757584418
+
+Nabywca:
+Stalmet Transport Sp. j.
+ul. Ogrodowa 95, 75-245 Kraków
+NIP: 9665240412
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+12 532,85 zł | 8% | 1 002,63 zł | 13 535,48 zł
+
+Zamówienie: ZK/2026/0735
+Termin płatności: 2025-09-02
+Nr klienta: 4310415016
+IBAN: PL10 9016 2587 6666 7793 7822 3267
+tel. 647 428 392"
+i045,"Faktura VAT nr 2026/10/FV/110
+Data wystawienia: 24.10.2026
+
+Sprzedawca:
+Orion Technika P.P.H.U.
+ul. Polna 25, 14-338 Kraków
+NIP: 293-802-62-01
+
+Nabywca:
+Polo Projekt P.P.H.U.
+ul. Leśna 59, 82-263 Łódź
+NIP: 772-400-49-95
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+2 531,45 zł | 0% | 0,00 zł | 2 531,45 zł"
+i046,"Numer faktury: 2025/07/FV/977
+Data wystawienia: 17 lipca 2025
+Sprzedawca: Orion Pracownia Sp. z o.o., ul. Leśna 31, 07-683 Warszawa
+NIP (sprzedawca): 768-516-12-29
+Nabywca: Orion Studio Sp. j., ul. Słoneczna 40, 20-415 Łódź
+NIP (nabywca): 853-046-37-46
+Wartość netto: 7 410,79 zł
+Stawka VAT: 23%
+Kwota VAT: 1 704,48 zł
+Wartość brutto: 9 115,27 zł"
+i047,"Faktura VAT nr FV 925/2025
+Data wystawienia: 2025-05-17
+
+Sprzedawca:
+Delta Logistyka S.A.
+ul. Lipowa 88, 26-734 Wrocław
+NIP: 668-783-39-16
+
+Nabywca:
+Błękitny Druk P.P.H.U.
+ul. Słoneczna 12, 65-456 Lublin
+NIP: 978-519-10-82
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+20106,40 zł | 23% | 4624,47 zł | 24730,87 zł
+
+Zamówienie: ZK/2025/0573
+Termin płatności: 2025-05-31
+Nr klienta: 5388470693
+IBAN: PL42 0049 3570 9475 1196 0742 6941
+tel. 676 817 165"
+i048,"Faktura VAT nr INV-2026-0183
+Data wystawienia: 09.07.2026
+
+Sprzedawca:
+Alfa Projekt S.A.
+ul. Polna 60, 86-736 Wrocław
+NIP: 2704622658
+
+Nabywca:
+Kamienny Handel Sp. z o.o.
+ul. Słoneczna 69, 48-843 Kraków
+NIP: 7766182514
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+2577,30 zł | 0% | 0,00 zł | 2577,30 zł
+
+Zamówienie: ZK/2025/0033
+Termin płatności: 08.08.2026
+Nr klienta: 1067198189
+IBAN: PL36 1102 1653 9731 0550 7314 9794
+tel. 524 350 858"
+i049,"Numer faktury: FV 63/2025
+Data wystawienia: 2025-02-15
+Sprzedawca: Wisła Studio P.P.H.U., ul. Polna 83, 85-390 Lublin
+NIP (sprzedawca): 930-284-39-58
+Nabywca: Alfa Technika Sp. z o.o., ul. Ogrodowa 41, 89-426 Poznań
+NIP (nabywca): 634-283-64-43
+Wartość netto: 16922,23 zł
+Stawka VAT: 23%
+Kwota VAT: 3892,11 zł
+Wartość brutto: 20827,56 zł
+Zamówienie: ZK/2025/0308
+Termin płatności: 2025-03-17
+Nr klienta: 9837427517
+IBAN: PL62 6824 9130 8683 2196 6363 3978
+tel. 630 308 438"
+i050,"Numer faktury: FV/2026/10/0311
+Data wystawienia: 25.10.2026
+Sprzedawca: Stalmet Transport Sp. z o.o., ul. Leśna 78, 90-209 Poznań
+NIP (sprzedawca): 618-304-69-92
+Nabywca: Tęcza Technika S.A., ul. Krótka 71, 41-794 Gdańsk
+NIP (nabywca): 113-983-73-59
+Wartość netto: 4.316,45 zł
+Stawka VAT: 0%
+Kwota VAT: 0,00 zł
+Wartość brutto: 4.316,45 zł
+Zamówienie: ZK/2026/0478
+Termin płatności: 01.11.2026
+Nr klienta: 8397709966
+IBAN: PL50 3328 6073 5126 6781 0749 9216
+tel. 613 859 249"
+i051,"Faktura VAT nr FV 174/2025
+Data wystawienia: 2025-01-17
+
+Sprzedawca:
+Tęcza Logistyka P.P.H.U.
+ul. Ogrodowa 5, 09-967 Lublin
+NIP: 7423536935
+
+Nabywca:
+Błękitny Logistyka Sp. z o.o.
+ul. Leśna 7, 97-006 Poznań
+NIP: 8854777259
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+10 987,65 zł | 23% | 2 527,16 zł | 13 514,81 zł
+
+Zamówienie: ZK/2026/0383
+Termin płatności: 2025-01-24
+Nr klienta: 3095318649
+IBAN: PL10 8719 9038 6739 0194 0274 8673
+tel. 640 648 393"
+i052,"Faktura VAT nr FV 579/2025
+Data wystawienia: 18.01.2025
+
+Sprzedawca:
+Tęcza Transport Sp. j.
+ul. Lipowa 52, 48-386 Wrocław
+NIP: 721-182-33-92
+
+Nabywca:
+Wisła Serwis Sp. z o.o.
+ul. Słoneczna 8, 81-009 Łódź
+NIP: 945-461-56-77
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+21114,46 zł | 8% | 1696,67 zł | 22811,13 zł"
+i053,"Numer faktury: FV 307/2025
+Data wystawienia: 2025-04-08
+Sprzedawca: Delta Transport P.P.H.U., ul. Słoneczna 97, 94-143 Lublin
+NIP (sprzedawca): 439-740-14-84
+Nabywca: Wisła Logistyka Sp. j., ul. Leśna 93, 10-512 Łódź
+NIP (nabywca): 125-039-26-16
+Wartość netto: 22 202,60 zł
+Stawka VAT: 0%
+Kwota VAT: 0,00 zł
+Wartość brutto: 22 202,60 zł
+Zamówienie: ZK/2025/0349
+Termin płatności: 2025-05-08
+Nr klienta: 8617360361
+IBAN: PL13 4478 7381 8038 3737 5829 9060
+tel. 692 542 290"
+i054,"Numer faktury: 2026/11/FV/369
+Data wystawienia: 2026-11-28
+Sprzedawca: Zielony Projekt Sp. z o.o., ul. Ogrodowa 72, 65-417 Warszawa
+NIP (sprzedawca): 294-311-42-67
+Nabywca: Błękitny Budowa P.P.H.U., ul. Lipowa 12, 45-567 Warszawa
+NIP (nabywca): 365-511-04-78
+Wartość netto: 24623,38 zł
+Stawka VAT: 23%
+Kwota VAT: 5663,38 zł
+Wartość brutto: 30286,76 zł
+Zamówienie: ZK/2025/0743
+Termin płatności: 2026-12-28
+Nr klienta: 5201221330
+IBAN: PL83 8537 2778 6237 2777 2274 4405
+tel. 654 374 604"
+i055,"Numer faktury: 2025/05/FV/390
+Data wystawienia: 30.05.2025
+Sprzedawca: Mazurska Druk P.P.H.U., ul. Polna 42, 77-970 Łódź
+NIP (sprzedawca): 5647154373
+Nabywca: Kamienny Studio S.A., ul. Krótka 62, 40-181 Poznań
+NIP (nabywca): 4712406597
+Wartość netto: 2703,61 zł
+Stawka VAT: 23%
+Kwota VAT: 621,83 zł
+Wartość brutto: 3325,44 zł
+Zamówienie: ZK/2026/0837
+Termin płatności: 13.06.2025
+Nr klienta: 2567729816
+IBAN: PL82 3273 9703 8939 2947 9012 0440
+tel. 736 825 314"
+i056,"Numer faktury: INV-2026-0946
+Data wystawienia: 25.03.2026
+Sprzedawca: Alfa Handel Sp. j., ul. Lipowa 99, 31-673 Łódź
+NIP (sprzedawca): 2672434266
+Nabywca: Tęcza Logistyka Sp. z o.o., ul. Polna 22, 82-627 Warszawa
+NIP (nabywca): 7179796888
+Wartość netto: 12269,31 zł
+Stawka VAT: 8%
+Kwota VAT: 981,54 zł
+Wartość brutto: 13250,85 zł
+Zamówienie: ZK/2026/0228
+Termin płatności: 24.04.2026
+Nr klienta: 6244291385
+IBAN: PL57 6408 7586 9643 8199 2469 5651
+tel. 512 594 207"
+i057,"Numer faktury: FV/2025/10/0046
+Data wystawienia: 2025-10-30
+Sprzedawca: Nova Druk Sp. z o.o., ul. Ogrodowa 23, 70-163 Gdańsk
+NIP (sprzedawca): 212-545-73-86
+Nabywca: Wisła Projekt S.A., ul. Ogrodowa 55, 59-237 Lublin
+Wartość netto: 17 497,27 zł
+Stawka VAT: 0%
+Kwota VAT: 0,00 zł
+Wartość brutto: 17 497,27 zł
+Zamówienie: ZK/2026/0607
+Termin płatności: 2025-11-13
+Nr klienta: 2670036982
+IBAN: PL37 3371 4560 1025 9459 1667 8796
+tel. 595 474 433"
+i058,"Numer faktury: FV 689/2025
+Data wystawienia: 21.07.2025
+Sprzedawca: Lipowa Serwis S.A., ul. Polna 89, 18-523 Poznań
+NIP (sprzedawca): 8859696910
+Nabywca: Orion Serwis S.A., ul. Słoneczna 77, 17-588 Poznań
+NIP (nabywca): 6579249913
+Wartość netto: 19 241,05 zł
+Stawka VAT: 23%
+Kwota VAT: 4 425,44 zł
+Wartość brutto: 23 666,49 zł"
+i059,"Numer faktury: FV/2026/05/0172
+Data wystawienia: 2026-05-17
+Sprzedawca: Delta Handel S.A., ul. Krótka 69, 36-172 Lublin
+NIP (sprzedawca): 679-050-72-38
+Nabywca: Orion Handel Sp. j., ul. Słoneczna 73, 95-791 Lublin
+NIP (nabywca): 788-767-67-70
+Wartość netto: 12 164,60 zł
+Stawka VAT: 23%
+Kwota VAT: 2 797,86 zł
+Wartość brutto: 14 962,46 zł"
+i060,"Faktura VAT nr 2026/01/FV/584
+Data wystawienia: 2026-01-11
+
+Nabywca:
+Lipowa Hurt Sp. j.
+ul. Ogrodowa 116, 86-834 Warszawa
+NIP: 696-292-33-08
+
+Sprzedawca:
+Alfa Meble S.A.
+ul. Polna 74, 34-975 Lublin
+NIP: 845-171-33-96
+
+Wartość netto | Stawka VAT | Kwota VAT | Wartość brutto
+22784,94 zł | 8% | 1822,80 zł | 24607,74 zł"
