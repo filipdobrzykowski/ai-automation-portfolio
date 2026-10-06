@@ -1,0 +1,66 @@
+id,route,failures,parse_ok,tokens_in,tokens_out,latency_s,raw,pred_invoice_number,pred_issue_date,pred_seller_name,pred_seller_nip,pred_buyer_nip,pred_net_amount,pred_vat_rate,pred_vat_amount,pred_gross_amount
+i001,auto,,yes,670,137,1.69,"```json
+{
+  ""invoice_number"": ""FV 651/2026"",
+  ""issue_date"": ""2026-10-06"",
+  ""seller_name"": ""Alfa Hurt S.A."",
+  ""seller_nip"": ""2034131644"",
+  ""buyer_nip"": ""8525534194"",
+  ""net_amount"": ""15218.07"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""3500.16"",
+  ""gross_amount"": ""18718.23""
+}
+```",FV 651/2026,2026-10-06,Alfa Hurt S.A.,2034131644,8525534194,15218.07,23,3500.16,18718.23
+i002,auto,,yes,603,142,1.17,"```json
+{
+  ""invoice_number"": ""INV-2026-0611"",
+  ""issue_date"": ""2026-07-06"",
+  ""seller_name"": ""Alfa Meble Sp. z o.o."",
+  ""seller_nip"": ""7965328713"",
+  ""buyer_nip"": ""1122691661"",
+  ""net_amount"": ""11070.18"",
+  ""vat_rate"": 8,
+  ""vat_amount"": ""885.61"",
+  ""gross_amount"": ""11955.79""
+}
+```",INV-2026-0611,2026-07-06,Alfa Meble Sp. z o.o.,7965328713,1122691661,11070.18,8,885.61,11955.79
+i003,review,nip_checksum,yes,591,140,1.38,"```json
+{
+  ""invoice_number"": ""2025/09/FV/900"",
+  ""issue_date"": ""2025-09-27"",
+  ""seller_name"": ""Stalmet Handel S.A."",
+  ""seller_nip"": ""9148932529"",
+  ""buyer_nip"": ""9809570158"",
+  ""net_amount"": ""21046.10"",
+  ""vat_rate"": 8,
+  ""vat_amount"": ""1683.69"",
+  ""gross_amount"": ""22729.79""
+}
+```",2025/09/FV/900,2025-09-27,Stalmet Handel S.A.,9148932529,9809570158,21046.10,8,1683.69,22729.79
+i004,auto,,yes,607,140,1.42,"```json
+{
+  ""invoice_number"": ""INV-2026-0686"",
+  ""issue_date"": ""2026-12-08"",
+  ""seller_name"": ""Stalmet Logistyka S.A."",
+  ""seller_nip"": ""6098393016"",
+  ""buyer_nip"": ""1310518341"",
+  ""net_amount"": ""8486.88"",
+  ""vat_rate"": 8,
+  ""vat_amount"": ""678.95"",
+  ""gross_amount"": ""9165.83""
+}
+```",INV-2026-0686,2026-12-08,Stalmet Logistyka S.A.,6098393016,1310518341,8486.88,8,678.95,9165.83
+i005,auto,,yes,680,140,1.39,"```json
+{
+  ""invoice_number"": ""FV/2025/02/0668"",
+  ""issue_date"": ""2025-02-25"",
+  ""seller_name"": ""Zielony Transport S.A."",
+  ""seller_nip"": ""6133387260"",
+  ""buyer_nip"": ""3473178105"",
+  ""net_amount"": ""4177.94"",
+  ""vat_rate"": 23,
+  ""vat_amount"": ""960.93"",
+  ""gross_amount"": ""5138.87""
+}
+```",FV/2025/02/0668,2025-02-25,Zielony Transport S.A.,6133387260,3473178105,4177.94,23,960.93,5138.87
