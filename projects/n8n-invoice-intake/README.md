@@ -23,9 +23,12 @@ flowchart LR
 ```
 
 ## Success criteria (fixed before building)
-1. **Parity test:** the JavaScript validation produces the same list of
-   failed checks as the Python implementation (`validators.py`) on all 60
-   stored v2 predictions of the development set. Required: 60/60 identical.
+1. **Parity test:** for all 60 stored v2 predictions of the development
+   set, the n8n workflow returns the same record, the same list of failed
+   checks (same order) and the same route as the Python implementation
+   (`extract.py` + `validators.py`). Required: 60/60 identical. A
+   supplementary set of 15 hand-made edge cases (one per kind of failure)
+   is compared the same way and reported separately.
 2. **End-to-end run:** 20 invoices from the development set go through the
    whole workflow; route accuracy and any difference from the Python run
    are reported. This is not a model evaluation (the earlier test set was

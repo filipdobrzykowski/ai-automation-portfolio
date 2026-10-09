@@ -1,0 +1,5 @@
+=== PARITY ===
+Stored predictions: predictions_v2_dev_20261007_003110.csv (60 invoices)
+Stored v2 predictions: 60/60 identical
+Edge cases: 15/15 identical
+Total: 75/75 identical
