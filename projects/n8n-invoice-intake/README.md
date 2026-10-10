@@ -19,7 +19,6 @@ flowchart LR
   D --> E{"All checks pass?"}
   E -- yes --> F[("accepted")]
   E -- no --> G[("review_queue")]
-  B -. error .-> H["Error workflow: log"]
 ```
 
 ## Success criteria (fixed before building)
@@ -29,10 +28,14 @@ flowchart LR
    (`extract.py` + `validators.py`). Required: 60/60 identical. A
    supplementary set of 15 hand-made edge cases (one per kind of failure)
    is compared the same way and reported separately.
-2. **End-to-end run:** 20 invoices from the development set go through the
-   whole workflow; route accuracy and any difference from the Python run
-   are reported. This is not a model evaluation (the earlier test set was
-   used up).
+2. **End-to-end run:** 20 development invoices selected by a fixed rule
+   (all 13 invoices whose expected route is `review`, plus the first 7
+   whose expected route is `auto`, in file order) go through the whole
+   workflow with the live model. Reported: route accuracy, invoice
+   accuracy (all nine fields), silent errors, rows written to each table.
+   This is a smoke test of the integration, not a model evaluation: the
+   development set was already used to design prompt v2, and the earlier
+   test set is used up.
 3. The exported workflow contains no credentials, and the production
    webhook is protected.
    The test-mode and production webhooks require a secret header.
