@@ -1,0 +1,27 @@
+1/20 i003 route=review
+2/20 i007 route=review
+3/20 i008 route=review
+4/20 i016 route=review
+5/20 i019 route=review
+6/20 i023 route=review
+7/20 i030 route=review
+8/20 i035 route=review
+9/20 i040 route=review
+10/20 i043 route=review
+11/20 i049 route=review
+12/20 i052 route=review
+13/20 i057 route=review
+14/20 i001 route=auto
+15/20 i002 route=auto
+16/20 i004 route=auto
+17/20 i005 route=auto
+18/20 i006 route=auto
+19/20 i009 route=auto
+20/20 i010 route=auto
+
+=== END-TO-END ===
+Selected: 13 expected review + 7 expected auto = 20
+Route accuracy: 20/20
+Invoice accuracy (all 9 fields): 20/20
+Silent errors: 0
+Routed auto: 7 | routed review: 13

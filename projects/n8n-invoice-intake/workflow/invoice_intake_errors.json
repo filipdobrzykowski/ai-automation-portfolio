@@ -1,0 +1,150 @@
+{
+  "name": "Invoice intake errors",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "d7db7adf-a7a1-4717-b067-7ec084205bfc",
+      "name": "Error Trigger"
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const e = $json;\nreturn { json: {\n  execution_id: String(e.execution?.id ?? \"\"),\n  workflow: String(e.workflow?.name ?? \"\"),\n  node: String(e.execution?.lastNodeExecuted ?? \"\"),\n  message: String(e.execution?.error?.message ?? \"\"),\n  processed_at: new Date().toISOString(),\n}};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        224,
+        0
+      ],
+      "id": "b0f0427e-9358-46dd-b1f3-9fcba9f9773c",
+      "name": "Format error"
+    },
+    {
+      "parameters": {
+        "dataTableId": {
+          "__rl": true,
+          "value": "A0r6w0qQthfUxZzv",
+          "mode": "list",
+          "cachedResultName": "errors",
+          "cachedResultUrl": "/projects/QOmIKLCmeGgVjhJN/datatables/A0r6w0qQthfUxZzv"
+        },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "execution_id",
+              "displayName": "execution_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "workflow",
+              "displayName": "workflow",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "node",
+              "displayName": "node",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "message",
+              "displayName": "message",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            },
+            {
+              "id": "processed_at",
+              "displayName": "processed_at",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "readOnly": false,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        448,
+        0
+      ],
+      "id": "61734145-a609-4b9e-8881-ce1593610964",
+      "name": "Store error"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "Format error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format error": {
+      "main": [
+        [
+          {
+            "node": "Store error",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "timeSavedMode": "fixed",
+    "errorWorkflow": "7oYFN6RfzWkJIxMu",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "versionId": "cf6a9867-41fa-48d6-be18-a6fe50318624",
+  "meta": {
+    "instanceId": "1b211019edeebbb33a19e9bb99fc632caa72936e758ed3440784a0bc532d657b"
+  },
+  "nodeGroups": [],
+  "id": "7oYFN6RfzWkJIxMu",
+  "tags": []
+}
